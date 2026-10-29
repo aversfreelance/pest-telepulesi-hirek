@@ -1,5 +1,11 @@
 # Pest vármegye települési hírlistája
 
+## Új napi import és kézi kiválasztás
+
+A jelenlegi javasolt PM Online-bemenet: `public/import/pmonline-daily.json`. Egyszerű JSON-lista, a magyar helyi napon megjelent, még nem kiválasztott és nem törölt hírekkel. A napi archív fájl `public/daily/YYYY-MM-DD.json`, a döntések külön `review/pmonline-actions.json` fájlba kerülnek. Előkészítés: `python prepare_daily.py`.
+
+A kiválasztást és törlést a felhasználó végzi a PM Online felületén. Az elutasítások azonosítóit meg kell őrizni, hogy a következő import ne hozza vissza a törölt híreket. A jelenlegi állapotfájl üres minta, a PM Online-ból való visszaírás még nincs bekötve. A napi állapotot a `public/daily-status.json` mutatja; üres napi lista hiányos gyűjtés mellett nem bizonyítja, hogy aznap nem volt hír. A korábbi, két rekordos szerkesztői importfájl megmarad próbaanyagként; a napi munkához az új címet kell használni.
+
 Önálló, nyilvános GitHub-tároló, fizetős szolgáltatás nélkül. A program a 174 korábban aktívnak talált forrásból gyűjt hírmetaadatokat. A forráslista nem jelent 174 hibátlanul feldolgozható weboldalt: az ellenőrzés eredménye a `public/status.json` fájlban látható, a `needs_review` és `error` állapotú források további beállítást igényelnek.
 
 ## PM Online bemenet

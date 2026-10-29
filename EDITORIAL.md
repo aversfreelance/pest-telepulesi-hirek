@@ -1,5 +1,21 @@
 # Szerkesztői válogatás
 
+## Aktuális működés: napi lista, kiválasztás a PM Online-ban
+
+A felhasználó a kézi kiválasztást (cherry picking) és elutasítást/törlést a PM Online-ban szeretné végezni. Az alábbi régi szerkesztői válogatási eljárást az új napi bemenetnél NE futtasd: a hírérték alapján ne távolíts el híreket a napi listából, és ne kezeld a korábbi próbadöntéseket a felhasználó döntéseiként.
+
+A GitHub nyers hírlistájából a `python prepare_daily.py` készíti a `public/import/pmonline-daily.json` egyszerű importlistát. Alapértelmezésben a magyar helyi napon **megjelent** hírekből dolgozik; a forrás közzétételi napja számít. A `public/daily/YYYY-MM-DD.json` napi fájl és a `public/daily-by-settlement.json` csoportosított nézet is elkészül. A napi fájl az adott nap legfrissebb, még nem kezelt listája, nem változtathatatlan pillanatfelvétel. Üres lista önmagában nem bizonyítja, hogy minden forrást sikerült ellenőrizni: a `public/daily-status.json` mutatja a gyűjtés és a PM Online-állapot ismert frissességét.
+
+A PM Online kiválasztási és törlési döntéseit a `review/pmonline-actions.json` őrzi: `version: 1`, `updatedAt`, `selectedIds`, `deletedIds`. A kiválasztott és a törölt rekordok azonosítója tartósan maradjon meg, akkor is, amikor az eredeti hír már nincs a napi listában. A hír felületről való eltüntetése nem jelentheti az elutasítási emlékezet törlését. Visszaállításhoz a PM Online-nak az adott id-t ki kell vennie a megfelelő döntési listából. A fájl csak azonosítókat és technikai frissítési időpontot tartalmazzon, belső cikket és felhasználói adatot ne.
+
+Az állapotfájl induló értéke üres, `updatedAt: null`: **a PM Online-ból történő automatikus visszaírás még nincs bekötve**. Ezt ne állítsd működőnek. Hiteles új állapotot ne találj ki, és meglévő valódi döntéseket ne írj felül üres mintával. Az állapot a PM Online-ból ellenőrzött exporttal vagy később hitelesített háttérkapcsolattal érkezhet. GitHub-hozzáférési kulcs ne kerüljön böngészős kódba.
+
+Azonos id egy napi listában csak egyszer szerepel. Eltérő id-jú, de azonos témájú híreket lehet jelezni ellenőrzésre településenként és térségi szinten, de a végső választást a felhasználó végzi. A korábban megírt témák vizsgálatának ismert korlátai továbbra is érvényesek.
+
+Időzített feladatként frissítsd a GitHub-bemenetet és a hiteles PM Online-állapotot, készítsd el és töltsd fel a napi kimeneteket. Ne indíts új települési gyűjtést és ne írj a PM Online adatbázisába. Csak a saját napi kimeneti fájlokat töltsd fel, a közben érkező változásokkal összeegyeztetve. A gyűjtés korábbi GitHub workflow-jogosultsági akadályát ne állítsd megoldottnak.
+
+## Korábbi, automatikus szerkesztői próba – háttéranyag
+
 A GitHub gyűjt, az időzített asszisztens pedig a `public/news.json` találatait tartalmilag átválogatja. Ez a lépés nem indít új települési gyűjtést és nem ír vagy publikál teljes cikket a PM Online-ban.
 
 1. Olvasd a legfrissebb GitHub-listát és annak változásait. A meglévő fájlokat ne töröld pusztán hálózati hiba miatt.
