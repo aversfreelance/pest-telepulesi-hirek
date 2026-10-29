@@ -1,15 +1,17 @@
 {
   "day": "2026-10-29",
   "timezone": "Europe/Budapest",
-  "preparedAt": "2026-10-29T18:14:54.087207+01:00",
-  "items": 0,
-  "activeItems": 0,
+  "preparedAt": "2026-10-29T18:35:18.677415+01:00",
+  "items": 26,
+  "activeItems": 26,
   "usedItems": 0,
   "comparisonFiles": [
     "public/active.json",
     "public/used.json"
   ],
-  "collectionCheckedAt": null,
-  "collectionComplete": false,
-  "latestInputPublicationDate": "2026-10-27"
+  "windowDays": 7,
+  "newsworthinessPending": 62,
+  "collectionCheckedAt": "2026-10-29T17:27:41.601466+00:00",
+  "collectionComplete": true,
+  "latestInputPublicationDate": "2026-10-29"
 }

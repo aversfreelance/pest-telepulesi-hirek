@@ -1,1 +1,513 @@
-[]
+[
+  {
+    "location": "Abony",
+    "news": [
+      {
+        "id": "hir-5908c721355a4bac922f",
+        "location": "Abony",
+        "sourceName": "Abony – önkormányzati honlap",
+        "sourceUrl": "https://abony.hu/hirek/3776-forgalmi-rend-valtozas-mindenszentek-es-halottak-napja-2",
+        "url": "https://abony.hu/hirek/3776-forgalmi-rend-valtozas-mindenszentek-es-halottak-napja-2",
+        "title": "Forgalmi rend változás! Mindenszentek és Halottak napja",
+        "date": "2026-10-27",
+        "time": "08:01",
+        "image": "https://abony.hu/hirek/images/bizottsagok/terkep.jpg",
+        "hasImage": true,
+        "excerpt": "Abonyban október 30. reggelétől november 2. reggeléig ideiglenesen egyirányúsítanak két utcát a temetők környékén. Az intézkedés a mindenszenteki forgalmat érinti.",
+        "collectedAt": "2026-10-29T17:20:16.473393+00:00",
+        "newsReason": "Közelgő, többnapos konkrét helyi forgalmi változás.",
+        "newsCategory": "kozlekedes"
+      },
+      {
+        "id": "hir-331657e5d35dff09bc09",
+        "location": "Abony",
+        "sourceName": "Abony – önkormányzati honlap",
+        "sourceUrl": "https://abony.hu/hirek/3772-figyelem-modosul-a-menetrend",
+        "url": "https://abony.hu/hirek/3772-figyelem-modosul-a-menetrend",
+        "title": "Figyelem! Módosul a menetrend",
+        "date": "2026-10-26",
+        "time": "13:24",
+        "image": "https://abony.hu/hirek/images/Hirdetmény_100a_Kőbánya-Kispest_1104-12011.jpg",
+        "hasImage": true,
+        "excerpt": "A 100a, Budapest–Cegléd–Szolnok vonalon november 4-től december 1-ig egyes vonatok menetrendje módosul a kőbánya-kispesti karbantartás miatt.",
+        "collectedAt": "2026-10-29T17:20:20.213328+00:00",
+        "newsReason": "Más vasútvonalat érint, ezért nem azonos a gyáli 142-es vonali hírrel.",
+        "newsCategory": "kozlekedes"
+      }
+    ]
+  },
+  {
+    "location": "Albertirsa",
+    "news": [
+      {
+        "id": "hir-e88281a10d0aefb1ba66",
+        "location": "Albertirsa",
+        "sourceName": "Albertirsa – önkormányzati honlap",
+        "sourceUrl": "https://albertirsa.hu/potlolagos-osztondijpalyazat-kozepiskolas-2-4-evfolyamos-diakok-reszere",
+        "url": "https://albertirsa.hu/potlolagos-osztondijpalyazat-kozepiskolas-2-4-evfolyamos-diakok-reszere",
+        "title": "Pótlólagos ösztöndíjpályázat középiskolás, 2–4. évfolyamos diákok részére",
+        "date": "2026-10-27",
+        "time": "13:11",
+        "image": "http://albertirsa.hu/wp-content/uploads/2026/10/Palyazati-kiiras-Potpalyazati-lehetoseg-kozepiskolasoknak-osztondij-elnyeresere.webp",
+        "hasImage": true,
+        "excerpt": "Albertirsán pótpályázatot hirdettek a középiskolák 2–4. évfolyamán tanuló diákok ösztöndíjára. A kérelmeket november 9-én 16 óráig lehet benyújtani.",
+        "collectedAt": "2026-10-29T17:20:11.000439+00:00",
+        "newsReason": "Aktuális helyi ösztöndíj-lehetőség konkrét pályázati határidővel.",
+        "newsCategory": "oktatas"
+      },
+      {
+        "id": "hir-a6daa718e605ae447a6d",
+        "location": "Albertirsa",
+        "sourceName": "Albertirsa – önkormányzati honlap",
+        "sourceUrl": "https://albertirsa.hu/tajekoztatas-vedozona-kiterjeszteserol",
+        "url": "https://albertirsa.hu/tajekoztatas-vedozona-kiterjeszteserol",
+        "title": "Tájékoztatás védőzóna kiterjesztéséről",
+        "date": "2026-10-26",
+        "time": "12:47",
+        "image": "http://albertirsa.hu/wp-content/uploads/2026/10/Pilis-1-4-terkep-002.jpg",
+        "hasImage": true,
+        "excerpt": "Albertirsa területének egy részét védőzónává jelölték a szőlő aranyszínű sárgaságát okozó fertőzés visszaszorítására. A területhatárokról térképet, a teendőkről határozatot közöltek.",
+        "collectedAt": "2026-10-29T17:20:11.516796+00:00",
+        "newsReason": "Új növényegészségügyi védőzóna érinti a helyi szőlőtulajdonosokat.",
+        "newsCategory": "kornyezet"
+      }
+    ]
+  },
+  {
+    "location": "Budakeszi",
+    "news": [
+      {
+        "id": "hir-829f66316f20758001da",
+        "location": "Budakeszi",
+        "sourceName": "Budakeszi – önkormányzati honlap",
+        "sourceUrl": "https://varoshaza.budakeszi.hu/lakossagi-forum-budakeszi-telepulesrendezesi-eszkozeinek-modositasa-kapcsan-2",
+        "url": "https://varoshaza.budakeszi.hu/lakossagi-forum-budakeszi-telepulesrendezesi-eszkozeinek-modositasa-kapcsan-2",
+        "title": "Lakossági fórum – Budakeszi településrendezési eszközeinek módosítása kapcsán",
+        "date": "2026-10-28",
+        "time": "11:37",
+        "image": null,
+        "hasImage": false,
+        "excerpt": "Budakeszin a repülőtér funkcióinak bővítéséhez kapcsolódó építési szabályokról tartanak lakossági fórumot november 10-én. A tervanyag nyilvánosan megtekinthető.",
+        "collectedAt": "2026-10-29T17:20:36.889011+00:00",
+        "newsReason": "A repülőtér funkcióinak bővítését érintő rendezési ügy.",
+        "newsCategory": "telepulesrendezes"
+      }
+    ]
+  },
+  {
+    "location": "Bugyi",
+    "news": [
+      {
+        "id": "hir-797b0583cd3f080bfb78",
+        "location": "Bugyi",
+        "sourceName": "Bugyi – önkormányzati honlap",
+        "sourceUrl": "https://bugyi.hu/uj-nappali-ellatas-bugyi-nagykozsegben-segitsen-on-is-a-tervezesben",
+        "url": "https://bugyi.hu/uj-nappali-ellatas-bugyi-nagykozsegben-segitsen-on-is-a-tervezesben",
+        "title": "ÚJ NAPPALI ELLÁTÁS BUGYI NAGYKÖZSÉGBEN – SEGÍTSEN ÖN IS A TERVEZÉSBEN!",
+        "date": "2026-10-29",
+        "time": "08:29",
+        "image": "https://bugyi.hu/wp-content/uploads/2026/10/Facebook-plakat.png",
+        "hasImage": true,
+        "excerpt": "Bugyiban értelmi fogyatékossággal élők nappali ellátását tervezik 2027 első negyedévétől. A kezdeményezők több környező járásban élő családok igényeit mérik fel.",
+        "collectedAt": "2026-10-29T17:20:25.781666+00:00",
+        "newsReason": "Új térségi nappali ellátás előkészítése, valós lakossági hatással.",
+        "newsCategory": "szocialis"
+      }
+    ]
+  },
+  {
+    "location": "Csobánka",
+    "news": [
+      {
+        "id": "hir-8245f9ee1a8aa02d804f",
+        "location": "Csobánka",
+        "sourceName": "Csobánka – önkormányzati honlap",
+        "sourceUrl": "https://csobanka.hu/hirek/tajekoztatas",
+        "url": "https://csobanka.hu/hirek/tajekoztatas",
+        "title": "TÁJÉKOZTATÁS",
+        "date": "2026-10-27",
+        "time": "09:02",
+        "image": "https://csobanka.hu/wp-content/uploads/2026/10/csobanka_hulladekgyujtes_jav-1024x683.jpg",
+        "hasImage": true,
+        "excerpt": "Csobánkán ingyenes lakossági veszélyes- és elektronikai hulladékgyűjtést szerveznek. Az elfogadható hulladékok feltételeit már ismertették; a pontos helyszínt és időpontot később közlik.",
+        "collectedAt": "2026-10-29T17:20:36.613644+00:00",
+        "newsReason": "Új térítésmentes veszélyes- és elektronikai hulladékgyűjtés előkészítése.",
+        "newsCategory": "kornyezet"
+      }
+    ]
+  },
+  {
+    "location": "Diósd",
+    "news": [
+      {
+        "id": "hir-75fae96919eb6f316c45",
+        "location": "Diósd",
+        "sourceName": "Diósd – önkormányzati honlap",
+        "sourceUrl": "https://diosd.hu/diosd-jovoje-kiallitas-a-varos-telepulesfejlesztesi-koncepciojarol",
+        "url": "https://diosd.hu/diosd-jovoje-kiallitas-a-varos-telepulesfejlesztesi-koncepciojarol",
+        "title": "Diósd jövője – kiállítás a város településfejlesztési koncepciójáról",
+        "date": "2026-10-28",
+        "time": "14:59",
+        "image": null,
+        "hasImage": false,
+        "excerpt": "Elkészült Diósd településfejlesztési koncepciója. A tervezett irányokat október 30. és november 6. között a Kék Géza Közösségi Ház kiállításán ismerhetik meg a helyiek.",
+        "collectedAt": "2026-10-29T17:20:50.314925+00:00",
+        "newsReason": "Új településfejlesztési koncepció nyilvános bemutatása.",
+        "newsCategory": "fejlesztes"
+      }
+    ]
+  },
+  {
+    "location": "Dunavarsány",
+    "news": [
+      {
+        "id": "hir-021430e72ffb0f6b7f75",
+        "location": "Dunavarsány",
+        "sourceName": "Dunavarsány – önkormányzati honlap",
+        "sourceUrl": "https://dunavarsany.hu/index.php/2026/10/28/kozlekedesbiztonsagi-munkalatok-kezdodnek",
+        "url": "https://dunavarsany.hu/index.php/2026/10/28/kozlekedesbiztonsagi-munkalatok-kezdodnek",
+        "title": "Közlekedésbiztonsági munkálatok kezdődnek",
+        "date": "2026-10-28",
+        "time": "13:37",
+        "image": "https://dunavarsany.hu/wp-content/uploads/2026/10/Veszely.png",
+        "hasImage": true,
+        "excerpt": "Dunavarsányban rázókövet építenek a Bajcsy-Zsilinszky és a Görgey utca kereszteződésében. A háromhetesre tervezett munka október 29-én indul, időszakos korlátozásokkal.",
+        "collectedAt": "2026-10-29T17:21:03.525922+00:00",
+        "newsReason": "Megkezdődő fizikai közlekedésbiztonsági beruházás.",
+        "newsCategory": "kozlekedes"
+      },
+      {
+        "id": "hir-e5ff2ec5a150e2442515",
+        "location": "Dunavarsány",
+        "sourceName": "Dunavarsány – önkormányzati honlap",
+        "sourceUrl": "https://dunavarsany.hu/index.php/2026/10/27/felhivas-lakossagi-elektronikai-hulladekgyujteserol",
+        "url": "https://dunavarsany.hu/index.php/2026/10/27/felhivas-lakossagi-elektronikai-hulladekgyujteserol",
+        "title": "Felhívás lakossági elektronikai hulladékgyűjtéséről",
+        "date": "2026-10-27",
+        "time": "06:47",
+        "image": "https://dunavarsany.hu/wp-content/uploads/2026/10/e-hulladek-2.png",
+        "hasImage": true,
+        "excerpt": "November 21-én lakossági elektronikai hulladékgyűjtést rendeznek Dunavarsányban, a volt laktanya területén. A szolgáltatás a helyi lakosság számára térítésmentes.",
+        "collectedAt": "2026-10-29T17:21:08.167863+00:00",
+        "newsReason": "Aktuális, ingyenes helyi szolgáltatás konkrét feltételekkel.",
+        "newsCategory": "kornyezet"
+      }
+    ]
+  },
+  {
+    "location": "Erdőkertes",
+    "news": [
+      {
+        "id": "hir-fc80b7b2169fe8d3b32e",
+        "location": "Erdőkertes",
+        "sourceName": "Erdőkertes – önkormányzati honlap",
+        "sourceUrl": "https://erdokertes.hu/2026/10/27/elorelepes-az-egeszsegugyben",
+        "url": "https://erdokertes.hu/2026/10/27/elorelepes-az-egeszsegugyben",
+        "title": "ELŐRELÉPÉS AZ EGÉSZSÉGÜGYBEN",
+        "date": "2026-10-27",
+        "time": "18:14",
+        "image": "https://erdokertes.hu/wp-content/uploads/2026/10/istockphoto-1392073422-612x612-1.jpg",
+        "hasImage": true,
+        "excerpt": "Erdőkertes képviselő-testülete támogatta a harmadik felnőtt háziorvosi körzet kialakítását. A dokumentumokat továbbították az OKFŐ-nek; a működés megkezdéséhez további lépések szükségesek.",
+        "collectedAt": "2026-10-29T17:21:09.200472+00:00",
+        "newsReason": "Új felnőtt háziorvosi körzet létrehozásáról született döntés.",
+        "newsCategory": "egeszsegugy"
+      },
+      {
+        "id": "hir-3d36e241f563adbe3a70",
+        "location": "Erdőkertes",
+        "sourceName": "Erdőkertes – önkormányzati honlap",
+        "sourceUrl": "https://erdokertes.hu/2026/10/27/jarda-revitalizacio-a-maria-utca-es-a-mandula-koz-kozott",
+        "url": "https://erdokertes.hu/2026/10/27/jarda-revitalizacio-a-maria-utca-es-a-mandula-koz-kozott",
+        "title": "JÁRDA REVITALIZÁCIÓ A MÁRIA UTCA ÉS A MANDULA KÖZ KÖZÖTT!",
+        "date": "2026-10-27",
+        "time": "18:12",
+        "image": "https://erdokertes.hu/wp-content/uploads/2026/10/photo-collage.png3_-1024x768.png",
+        "hasImage": true,
+        "excerpt": "Megújul a járda Erdőkertesen, a Mária utca és a Mandula köz között. A november 10-ig tervezett munkák alatt útszűkületre és félpályás korlátozásra kell számítani.",
+        "collectedAt": "2026-10-29T17:21:10.540083+00:00",
+        "newsReason": "Járdafelújítás és fennálló ideiglenes forgalmi változás.",
+        "newsCategory": "kozlekedes"
+      }
+    ]
+  },
+  {
+    "location": "Gomba",
+    "news": [
+      {
+        "id": "hir-13265664bd2520ce448f",
+        "location": "Gomba",
+        "sourceName": "Gomba – önkormányzati honlap",
+        "sourceUrl": "https://gomba.hu/index.php/2026/10/29/influenza-elleni-vedooltas-2",
+        "url": "https://gomba.hu/index.php/2026/10/29/influenza-elleni-vedooltas-2",
+        "title": "Influenza elleni védőoltás",
+        "date": "2026-10-29",
+        "time": "11:58",
+        "image": "https://gomba.hu/wp-content/uploads/2021/06/egeszseghaz-1200x1010.jpg",
+        "hasImage": true,
+        "excerpt": "Gombán október 29-től elérhető a szezonális influenzaoltás. A háziorvosi tájékoztató megadja az oltások felvételének helyi rendjét.",
+        "collectedAt": "2026-10-29T17:21:23.727117+00:00",
+        "newsReason": "Új, helyben elérhető szezonális ellátási információ.",
+        "newsCategory": "egeszsegugy"
+      }
+    ]
+  },
+  {
+    "location": "Gyál",
+    "news": [
+      {
+        "id": "hir-59cc5114a7b6da62716d",
+        "location": "Gyál",
+        "sourceName": "Gyál – önkormányzati honlap",
+        "sourceUrl": "https://gyal.hu/kepviselo-testuleti-beszamolo-oktober",
+        "url": "https://gyal.hu/kepviselo-testuleti-beszamolo-oktober",
+        "title": "Képviselő-testületi beszámoló: október",
+        "date": "2026-10-29",
+        "time": "07:16",
+        "image": "https://gyal.hu/wp-content/uploads/2026/09/alt-scaled-1.jpg",
+        "hasImage": true,
+        "excerpt": "Gyál októberi testületi ülésén a hulladéklerakó bővítéséről, új gyalogátkelők előkészítéséről és több helyi támogatásról is döntöttek.",
+        "collectedAt": "2026-10-29T17:21:40.928952+00:00",
+        "newsReason": "Konkrét hulladékkezelési, támogatási és közlekedésbiztonsági döntések.",
+        "newsCategory": "onkormanyzat"
+      },
+      {
+        "id": "hir-b68b3e78ac57cd1574ad",
+        "location": "Gyál",
+        "sourceName": "Gyál – önkormányzati honlap",
+        "sourceUrl": "https://gyal.hu/69611-2",
+        "url": "https://gyal.hu/69611-2",
+        "title": "Vágányzári információ",
+        "date": "2026-10-26",
+        "time": "14:34",
+        "image": "https://gyal.hu/wp-content/uploads/2026/10/vaganyzar-1.jpg",
+        "hasImage": true,
+        "excerpt": "November 4. és december 1. között a 142-es, Budapest–Lajosmizse vasútvonal egyes vonatai módosított menetrend szerint járnak a kőbánya-kispesti munkák miatt.",
+        "collectedAt": "2026-10-29T17:21:45.040293+00:00",
+        "newsReason": "Hosszabb, előre jelzett vasúti menetrendváltozás.",
+        "newsCategory": "kozlekedes"
+      }
+    ]
+  },
+  {
+    "location": "Gyömrő",
+    "news": [
+      {
+        "id": "hir-10f2a31aa598ca9018f4",
+        "location": "Gyömrő",
+        "sourceName": "Gyömrő – önkormányzati honlap",
+        "sourceUrl": "https://www.gyomro.hu/hirek/924-osszefogtak-a-terseg-telepulesei-az-orvosi-ugyelet-visszaallitasaert.html",
+        "url": "https://www.gyomro.hu/hirek/924-osszefogtak-a-terseg-telepulesei-az-orvosi-ugyelet-visszaallitasaert.html",
+        "title": "Összefogtak a térség települései az orvosi ügyelet visszaállításáért",
+        "date": "2026-10-29",
+        "time": "10:16",
+        "image": "https://www.gyomro.hu/images/ugyelet3.jpg",
+        "hasImage": true,
+        "excerpt": "Ecser, Maglód, Péteri és Gyömrő vezetői az orvosi ügyelet térségi visszaállításáról egyeztettek. A megvalósításhoz kormányzati jóváhagyást és pénzügyi támogatást kérnének.",
+        "collectedAt": "2026-10-29T17:21:42.234378+00:00",
+        "newsReason": "Több települést érintő orvosi ügyeleti kezdeményezés.",
+        "newsCategory": "egeszsegugy"
+      }
+    ]
+  },
+  {
+    "location": "Hernád",
+    "news": [
+      {
+        "id": "hir-1ef5b2a3d849ee0558dc",
+        "location": "Hernád",
+        "sourceName": "Hernád – önkormányzati honlap",
+        "sourceUrl": "https://www.hernad.hu/kozbiztonsagi-fejlesztesek-valosultak-meg-hernadon-is",
+        "url": "https://www.hernad.hu/kozbiztonsagi-fejlesztesek-valosultak-meg-hernadon-is",
+        "title": "Közbiztonsági fejlesztések valósultak meg Hernádon is",
+        "date": "2026-10-28",
+        "time": "14:53",
+        "image": null,
+        "hasImage": false,
+        "excerpt": "Hernádon hat térfigyelő kamerát cseréltek le, és új sebességmérő kamerát szereltek fel a Váradi úton. A fejlesztés egy több települést érintő térségi program része.",
+        "collectedAt": "2026-10-29T17:21:49.852784+00:00",
+        "newsReason": "Megvalósult kamerás és közlekedésbiztonsági fejlesztés.",
+        "newsCategory": "kozbiztonsag"
+      }
+    ]
+  },
+  {
+    "location": "Nyáregyháza",
+    "news": [
+      {
+        "id": "hir-714a79f92578cc6fea5e",
+        "location": "Nyáregyháza",
+        "sourceName": "Nyáregyháza – önkormányzati honlap",
+        "sourceUrl": "https://nyaregyhaza.hu/hirek/szolgaltatasok/tajekoztatas-az-ivovizhalozat-mechanikai-szivacsos-mosatasi-munkalatairol",
+        "url": "https://nyaregyhaza.hu/hirek/szolgaltatasok/tajekoztatas-az-ivovizhalozat-mechanikai-szivacsos-mosatasi-munkalatairol",
+        "title": "Tájékoztatás az ivóvízhálózat mechanikai (szivacsos) mosatási munkálatairól",
+        "date": "2026-10-29",
+        "time": "12:19",
+        "image": null,
+        "hasImage": false,
+        "excerpt": "November 3–30. között tisztítják Nyáregyháza ivóvízhálózatát. A munkák idején vízhiány és nyomásingadozás is előfordulhat; a szolgáltató térképen jelzi a munkaterületeket.",
+        "collectedAt": "2026-10-29T17:23:42.902001+00:00",
+        "newsReason": "A teljes település vízellátását érintő karbantartás.",
+        "newsCategory": "kozmu"
+      }
+    ]
+  },
+  {
+    "location": "Perbál",
+    "news": [
+      {
+        "id": "hir-df839e77422e5197b984",
+        "location": "Perbál",
+        "sourceName": "Perbál – önkormányzati honlap",
+        "sourceUrl": "https://perbal.hu/bejegyzesek/aktualis/hirdetmeny-partnersegi-lakossagi-velemenynyilvanitas-perbal-kozseg-helyi-epitesi-szabalyzatanak-modositasa-a-szechenyi-utca-eszaki-szakaszanak-ujboli-2026-evi-rendezese-erdekeben",
+        "url": "https://perbal.hu/bejegyzesek/aktualis/hirdetmeny-partnersegi-lakossagi-velemenynyilvanitas-perbal-kozseg-helyi-epitesi-szabalyzatanak-modositasa-a-szechenyi-utca-eszaki-szakaszanak-ujboli-2026-evi-rendezese-erdekeben",
+        "title": "HIRDETMÉNY – Partnerségi-lakossági véleménynyilvánítás – PERBÁL KÖZSÉG HELYI ÉPÍTÉSI SZABÁLYZATÁNAK MÓDOSÍTÁSA A SZÉCHENYI UTCA ÉSZAKI SZAKASZÁNAK ÚJBÓLI, 2026. ÉVI RENDEZÉSE ÉRDEKÉBEN",
+        "date": "2026-10-28",
+        "time": "14:02",
+        "image": "https://perbal.hu/wp-content/uploads/2026/10/hesz-modositas.png",
+        "hasImage": true,
+        "excerpt": "Perbál a Széchenyi utca északi szakaszának rendezéséhez módosítaná a helyi építési szabályzatot. A lakossági véleményeket október 29. és november 8. között várják.",
+        "collectedAt": "2026-10-29T17:23:56.401288+00:00",
+        "newsReason": "Konkrét területet érintő szabályozás és aktuális véleményezési lehetőség.",
+        "newsCategory": "telepulesrendezes"
+      }
+    ]
+  },
+  {
+    "location": "Pécel",
+    "news": [
+      {
+        "id": "hir-18187234a41ffb08b1dc",
+        "location": "Pécel",
+        "sourceName": "Pécel – önkormányzati honlap",
+        "sourceUrl": "https://pecel.hu/hirek/testuleti-hirek",
+        "url": "https://pecel.hu/hirek/testuleti-hirek",
+        "title": "Testületi hírek",
+        "date": "2026-10-29",
+        "time": "16:04",
+        "image": null,
+        "hasImage": false,
+        "excerpt": "Pécel képviselő-testülete a háziorvosi és fogászati ellátás jövőjéről, valamint helyi támogatásokról döntött. A fogászati körzetek külön helyiségbe költöztetésével a rendelési idő is bővülhet.",
+        "collectedAt": "2026-10-29T17:23:54.845610+00:00",
+        "newsReason": "Érdemi egészségügyi és önkormányzati döntések.",
+        "newsCategory": "onkormanyzat"
+      },
+      {
+        "id": "hir-1e14399d2d46e420992b",
+        "location": "Pécel",
+        "sourceName": "Pécel – önkormányzati honlap",
+        "sourceUrl": "https://pecel.hu/hirek/mar-igenyelheto-az-ingyenes-onkormanyzati-szocialis-tuzifa",
+        "url": "https://pecel.hu/hirek/mar-igenyelheto-az-ingyenes-onkormanyzati-szocialis-tuzifa",
+        "title": "Már igényelhető az ingyenes önkormányzati szociális tűzifa",
+        "date": "2026-10-26",
+        "time": "08:54",
+        "image": null,
+        "hasImage": false,
+        "excerpt": "Pécelen már igényelhető az önkormányzat szociális tűzifa-támogatása. A program egy fűtési szezonban egyszer, legfeljebb egy köbméter tűzifával segítheti a jogosult háztartásokat.",
+        "collectedAt": "2026-10-29T17:24:02.053173+00:00",
+        "newsReason": "Aktuális helyi támogatási lehetőség a fűtési szezonban.",
+        "newsCategory": "szocialis"
+      }
+    ]
+  },
+  {
+    "location": "Rád",
+    "news": [
+      {
+        "id": "hir-7ec1767f8874ad53a10d",
+        "location": "Rád",
+        "sourceName": "Rád – önkormányzati honlap",
+        "sourceUrl": "https://www.rad.hu/index.php/rad-hirek-menu/1181-rad-hirek-tajekoztato-utfelujitas-20261029",
+        "url": "https://www.rad.hu/index.php/rad-hirek-menu/1181-rad-hirek-tajekoztato-utfelujitas-20261029",
+        "title": "Tájékoztató",
+        "date": "2026-10-29",
+        "time": "09:52",
+        "image": null,
+        "hasImage": false,
+        "excerpt": "Útburkolat-javításhoz kapcsolódó ideiglenes forgalomkorlátozást jeleztek a Rád és Penc közötti útszakaszon. A közlemény a novemberi munkák tervezett ütemezését is ismerteti.",
+        "collectedAt": "2026-10-29T17:24:44.097180+00:00",
+        "newsReason": "A forrás leírása konkrét, közelgő útjavításról szól.",
+        "newsCategory": "kozlekedes"
+      }
+    ]
+  },
+  {
+    "location": "Szigetmonostor",
+    "news": [
+      {
+        "id": "hir-17cb8901cb421e6ed044",
+        "location": "Szigetmonostor",
+        "sourceName": "Szigetmonostor – önkormányzati honlap",
+        "sourceUrl": "https://szigetmonostor.hu/tajekoztatas-a-fogaszati-rendeles-elmaradasarol",
+        "url": "https://szigetmonostor.hu/tajekoztatas-a-fogaszati-rendeles-elmaradasarol",
+        "title": "Tájékoztatás a fogászati rendelés elmaradásáról",
+        "date": "2026-10-26",
+        "time": "15:01",
+        "image": "https://szigetmonostor.hu/wp-content/uploads/2026/10/Fogaszati-naptar-lemondasjelzessel.png",
+        "hasImage": true,
+        "excerpt": "Szigetmonostoron technikai okból október 30-án is elmarad a fogászati rendelés. Az önkormányzat közlése szerint dolgoznak a hiba mielőbbi elhárításán.",
+        "collectedAt": "2026-10-29T17:26:01.376633+00:00",
+        "newsReason": "Aktuális technikai hiba miatti ellátási fennakadás.",
+        "newsCategory": "egeszsegugy"
+      }
+    ]
+  },
+  {
+    "location": "Vecsés",
+    "news": [
+      {
+        "id": "hir-886d98ee763bb0fd9eec",
+        "location": "Vecsés",
+        "sourceName": "Vecsési Tájékoztató",
+        "sourceUrl": "https://vecsesitajekoztato.hu/2026/10/25/uj-trafiboxok-vigyaznak-a-kozlekedokre-vecsesen",
+        "url": "https://vecsesitajekoztato.hu/2026/10/25/uj-trafiboxok-vigyaznak-a-kozlekedokre-vecsesen",
+        "title": "Új trafiboxok vigyáznak a közlekedőkre Vecsésen",
+        "date": "2026-10-25",
+        "time": "15:02",
+        "image": "https://vecsesitajekoztato.hu/wp-content/uploads/2026/10/trafibox.jpg",
+        "hasImage": true,
+        "excerpt": "Vecsésen négy új trafibox kihelyezését jelentették be. A fejlesztés több forgalmas utcát érint, és a Besztercei utcában új gyalogátkelőhely is készül.",
+        "collectedAt": "2026-10-29T17:26:25.234924+00:00",
+        "newsReason": "Új sebességmérő helyszínek és gyalogosbiztonsági fejlesztés.",
+        "newsCategory": "kozbiztonsag"
+      },
+      {
+        "id": "hir-8b35c2f3fb7e12b23cd4",
+        "location": "Vecsés",
+        "sourceName": "Vecsési Tájékoztató",
+        "sourceUrl": "https://vecsesitajekoztato.hu/2026/10/23/megujul-a-vecsesi-andrassy-iskola",
+        "url": "https://vecsesitajekoztato.hu/2026/10/23/megujul-a-vecsesi-andrassy-iskola",
+        "title": "Megújul a vecsési Andrássy iskola",
+        "date": "2026-10-23",
+        "time": "14:58",
+        "image": "https://vecsesitajekoztato.hu/wp-content/uploads/2026/10/andrassy_felujitas_alap.jpg",
+        "hasImage": true,
+        "excerpt": "Megkezdődött a vecsési Andrássy Gyula Általános Iskola felújítása. A 385,5 millió forintos támogatásból épületkorszerűsítés, új közösségi terek és eszközbeszerzés is megvalósul.",
+        "collectedAt": "2026-10-29T17:26:27.605154+00:00",
+        "newsReason": "Jelentős, már megkezdett helyi iskolafejlesztés.",
+        "newsCategory": "oktatas"
+      }
+    ]
+  },
+  {
+    "location": "Verőce",
+    "news": [
+      {
+        "id": "hir-cc85fba088d1823f9501",
+        "location": "Verőce",
+        "sourceName": "Verőce – önkormányzati honlap",
+        "sourceUrl": "https://www.xn--verce-69a.hu/tajekoztatas-forgalmirend-valtozasrol-a-2-sz-fout-43667-43847-km-szelvenyek-pest-nograd-megyehatar-kozotti-szakaszon",
+        "url": "https://www.xn--verce-69a.hu/tajekoztatas-forgalmirend-valtozasrol-a-2-sz-fout-43667-43847-km-szelvenyek-pest-nograd-megyehatar-kozotti-szakaszon",
+        "title": "Tájékoztatás forgalmirend-változásról a 2. sz. főút 43+667 – 43+847 km szelvények (Pest-Nógrád megyehatár) közötti szakaszon",
+        "date": "2026-10-29",
+        "time": "14:43",
+        "image": "https://www.xn--verce-69a.hu/wp-content/uploads/2026/10/forgalomkorlatozas_vag_kiemelt.webp",
+        "hasImage": true,
+        "excerpt": "November 3–5. között burkolatjavítás miatt félpályás korlátozásra és hosszabb menetidőre kell számítani a 2-es főúton, a Pest–Nógrád megyehatárnál.",
+        "collectedAt": "2026-10-29T17:26:27.037034+00:00",
+        "newsReason": "Térségi főúti forgalomkorlátozás konkrét időpontokkal.",
+        "newsCategory": "kozlekedes"
+      }
+    ]
+  }
+]

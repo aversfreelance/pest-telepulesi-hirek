@@ -1,53 +1,36 @@
-# Pest vármegye települési hírlistája
+# Reggeli települési hírgyűjtés és szerkesztői válogatás
 
-## Aktuális működés: aktív és felhasznált
+## A teljes menet
 
-A PM Online állandó importcíme: `public/active.json`. A feldolgozott vagy elutasított hírek nyilvántartása: `public/used.json`. Mindkettő egyszerű JSON-lista a hírmetaadatokkal és az állandó azonosítóval.
+1. A GitHub Actions minden reggel 07:17-kor, magyar helyi idő szerint lekéri a sources.json települési honlapjait. Az első teljes futás az utóbbi hét napot keresi, később csak az aznap megjelent híreket. Kézi javító futásnál a --days kapcsolóval visszamenőleges ablak adható meg.
+2. Az időzített asszisztens 09:15-kor magyar idő szerint átnézi az új nyers találatokat, tényleges tartalom alapján értékeli a hírértéket. Ez helyi alkalmazásban futó feladat: a gépnek és az alkalmazásnak működnie kell. Nem használ fizetős AI API-t, de az előfizetés használati keretét fogyasztja.
+3. A hírértékű találat csak akkor kerül az active.json fájlba, ha az aktív és a kezelt used.json fájlban sincs még benne. Összevetés: állandó id és követőkódoktól megtisztított teljes hír-URL. A PM Online már megjelent cikkeihez NEM hasonlítunk.
+4. A PM Online külön /admin/hirlista oldalán településenként, kereshetően jelenik meg az aktív lista. A Felhasználom gomb a cím, bevezető, település és forráslink alapján szerkeszthető piszkozatot készít. Nem élesít cikket, és a külső képet nem veszi át automatikusan.
+5. Felhasználás és kuka esetén a tétel egy GitHub-mentésben átkerül az aktívból a kezelt fájlba. A kezelt fájlban a used és discarded állapot egyaránt megmarad. Félbeszakadt piszkozatkészítés preparing állapotban újrapróbálható, ugyanazzal a piszkozat-azonosítóval.
 
-A `python prepare_daily.py` a magyar helyi napon megjelent új találatot csak akkor adja az aktívhoz, ha az id-ja és a megtisztított hír-URL-je egyik listában sem szerepel. A függő aktív hírek másnap is megmaradnak. Az összehasonlítás nem olvassa a PM Online cikkeit. A felhasznált listát a gyűjtő nem írja át.
+## Fájlok
 
-Felhasználáskor vagy végleges elutasításkor a PM Online-nak át kell mozgatnia a rekordot az aktívból a felhasználtba. Ennek visszakötése még nincs kész. A `public/import/pmonline-daily.json` csak az adott futásban hozzáadott új tételek listája. Az induló két állomány üres; a mai próba nem tartalmaz mai megjelenésű hírt.
+- public/news.json: nyers gyűjtés, nem közvetlen szerkesztői ajánlás.
+- review/newsworthiness.json: a tartalmi értékelés döntései és rövid indoklásai. include / exclude / review. Ellenőrizetlen hír nem jut az aktív listába.
+- public/active.json: a PM Online állandó importlistája. A még el nem intézett hírek másnap is megmaradnak.
+- public/used.json: a felhasznált és kukázott hírek tartós emlékezete. A napi gyűjtő nem írja át.
+- public/import/pmonline-daily.json: az adott előkészítés új hozzáadásai.
+- public/daily/YYYY-MM-DD.json: az adott nap legutóbbi előkészítésének új hozzáadásai; a teljes munkalista mindig az active.json.
+- public/status.json és public/daily-status.json: a tényleges gyűjtési lefedettség és a függő értékelések állapota.
 
-## Korábbi megoldások – az aktuális munkamenethez az active.json használandó
+Az aktív rekord mezői: id, location, sourceName, url, sourceUrl, title, date, time, image, hasImage, excerpt, newsReason, newsCategory. A date/time a forrás megjelenési ideje; ismeretlen időpont null. A kép URL-je metaadat, nem automatikus képfelhasználási engedély. Teljes forráscikket nem másolunk a nyilvános JSON-ba.
 
-### Korábbi napi import és kézi kiválasztás
+## Indítás
 
-A jelenlegi javasolt PM Online-bemenet: `public/import/pmonline-daily.json`. Egyszerű JSON-lista, a magyar helyi napon megjelent, még nem kiválasztott és nem törölt hírekkel. A napi archív fájl `public/daily/YYYY-MM-DD.json`, a döntések külön `review/pmonline-actions.json` fájlba kerülnek. Előkészítés: `python prepare_daily.py`.
+A beállításra kész munkafolyamat: setup/collect.yml. Ezt a GitHubon .github/workflows/collect.yml néven kell elmenteni; a jelenlegi CLI-kapcsolatból hiányzik a workflow jogosultság, ezért a reggeli GitHub-ütemezés még nem aktív. Nyilvános tároló szabványos GitHub-futtatója díjmentes, de a GitHub indítása késhet.
 
-A kiválasztást és törlést a felhasználó végzi a PM Online felületén. Az elutasítások azonosítóit meg kell őrizni, hogy a következő import ne hozza vissza a törölt híreket. A jelenlegi állapotfájl üres minta, a PM Online-ból való visszaírás még nincs bekötve. A napi állapotot a `public/daily-status.json` mutatja; üres napi lista hiányos gyűjtés mellett nem bizonyítja, hogy aznap nem volt hír. A korábbi, két rekordos szerkesztői importfájl megmarad próbaanyagként; a napi munkához az új címet kell használni.
+A PM Online-oldal és a háttérkapcsolat külön fejlesztési ágon készül. Élesítés előtt a szerver NEWS_INBOX_GITHUB_TOKEN beállítása szükséges: kizárólag e hírgyűjtő tároló Contents: read/write jogosultságával. A kulcs nem kerülhet a böngészőbe vagy ebbe a tárolóba. Új adatbázistábla nem szükséges; a piszkozatok a PM Online meglévő szerkesztői adatkezelését használják.
 
-Önálló, nyilvános GitHub-tároló, fizetős szolgáltatás nélkül. A program a 174 korábban aktívnak talált forrásból gyűjt hírmetaadatokat. A forráslista nem jelent 174 hibátlanul feldolgozható weboldalt: az ellenőrzés eredménye a `public/status.json` fájlban látható, a `needs_review` és `error` állapotú források további beállítást igényelnek.
+## Ellenőrzés
 
-## PM Online bemenet
-
-A `public/news.json` egy egyszerű JSON-lista, a sport- és programajánló mezőneveihez igazítva:
-
-- `id`: állandó azonosító, az ismételt import frissítse ezt a rekordot.
-- `location`: település.
-- `sourceName`: honlap neve.
-- `url`, `sourceUrl`: a konkrét hír teljes internetes címe.
-- `title`: hír címe.
-- `date`: a forrás szerinti megjelenési nap, `YYYY-MM-DD`.
-- `time`: a forrás szerinti megjelenési idő, `HH:mm`, időpont nélkül `null`.
-- `hasImage`: talált-e a gyűjtő a hírhez használható képet.
-- `image`: a talált kép teljes címe, vagy `null`.
-
-A JSON-ban az URL szöveg; kattintható linket a PM Online felülete jelenít meg belőle. A képfelismerés a honlap által jelölt cikkképet vizsgálja; a logókat, sablonképeket kiszűri, de a változatos oldalak miatt szerkesztői ellenőrzés indokolt. A lista nem tartalmaz átvett teljes cikkeket.
-
-## Frissítés és import
-
-A GitHub Actions naponta 07:17 és 17:17 órakor, magyar helyi idő szerint fut, és kézzel is indítható. Az időzített indítás GitHub-terhelés miatt késhet. A szabványos futtatók nyilvános tárolóban ingyenesek. A GitHub inaktív nyilvános tárolók időzítését leállíthatja; a futásokat figyelni kell.
-
-A gyűjtő az utóbbi 31 nap dátummal ellátott híreit tartja meg. Hibás vagy elérhetetlen forrás esetén a korábbi, még ebbe az időablakba eső hírek megmaradnak. A dátum nélküli oldalak kimaradnak, az időpontot nem találja ki. Legfeljebb 20 cikkjelöltet ellenőriz forrásonként és futásonként; ez nem teljes archívumletöltés.
-
-A PM Online a GitHub nyers `public/news.json` címét olvassa, és `id` alapján beszúr/frissít. Az ajánló meglévő importálójának formáját követjük, de ez **hírlista**, ezért külön hírimport-mezőillesztés szükséges; a tároló elkészítése önmagában nem kapcsolja be a PM Online automatikus importját.
-
-## Helyi ellenőrzés
-
-```sh
 pip install -r requirements.txt
 python -m unittest discover -s tests
-python collect.py
-```
+python collect.py --days 7
+python prepare_daily.py
 
-Egy rövid próba: `python collect.py --limit 3`. Az aktuális állapot és hibák a `public/status.json` fájlba kerülnek. Teljes gyűjtési hiba esetén a program hibával leáll, a korábbi hírlistát nem írja felül.
+A 174 forrásból nem mindegyik dolgozható fel automatikusan. Az elérhetetlen vagy dátumozásában bizonytalan oldalak külön állapottal szerepelnek; a lista nem teljes lefedettségi ígéret. Hiányzó/hibás aktív vagy kezelt fájlnál az előkészítés leáll, nem nullázza az előzményeket.

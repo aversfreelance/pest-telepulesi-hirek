@@ -1,0 +1,1466 @@
+{
+  "checkedAt": "2026-10-29T17:27:41.601466+00:00",
+  "complete": true,
+  "checkedSources": 174,
+  "windowDays": 7,
+  "sourceCount": 174,
+  "freshRecords": 152,
+  "sources": [
+    {
+      "location": "Abony",
+      "url": "https://abony.hu/hirek",
+      "state": "ok",
+      "articles": 20,
+      "candidates": 200,
+      "errors": []
+    },
+    {
+      "location": "Acsa",
+      "url": "https://www.acsa.hu/?megjelenites=hirkategoriak",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 4,
+      "errors": []
+    },
+    {
+      "location": "Albertirsa",
+      "url": "https://albertirsa.hu/hirek/",
+      "state": "ok",
+      "articles": 4,
+      "candidates": 20,
+      "errors": []
+    },
+    {
+      "location": "Alsónémedi",
+      "url": "https://www.alsonemedi.hu/hirek",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 19,
+      "errors": []
+    },
+    {
+      "location": "Apaj",
+      "url": "https://apaj.hu/h--rek--beszamolok",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Aszód",
+      "url": "https://aszod.hu/hirek/",
+      "state": "ok",
+      "articles": 1,
+      "candidates": 16,
+      "errors": []
+    },
+    {
+      "location": "Bag",
+      "url": "https://www.bagfalu.hu/",
+      "state": "ok",
+      "articles": 2,
+      "candidates": 28,
+      "errors": []
+    },
+    {
+      "location": "Biatorbágy",
+      "url": "https://biatorbagy.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Budajenő",
+      "url": "https://budajeno.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Budakalász",
+      "url": "https://www.budakalasz.hu/varosunk/hirek/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Budakeszi",
+      "url": "https://varoshaza.budakeszi.hu/",
+      "state": "partial",
+      "articles": 2,
+      "candidates": 24,
+      "errors": [
+        "feed: XML or text declaration not at start of entity: line 2, column 0"
+      ]
+    },
+    {
+      "location": "Budaörs",
+      "url": "https://budaors.hu/hirek",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 481,
+      "errors": []
+    },
+    {
+      "location": "Bugyi",
+      "url": "https://bugyi.hu/",
+      "state": "partial",
+      "articles": 3,
+      "candidates": 4,
+      "errors": [
+        "feed: undefined entity: line 11, column 19"
+      ]
+    },
+    {
+      "location": "Bénye",
+      "url": "https://benye.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Cegléd",
+      "url": "https://cegled.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 9,
+      "errors": []
+    },
+    {
+      "location": "Csemő",
+      "url": "https://csemo.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Csobánka",
+      "url": "https://csobanka.hu/category/hirek/",
+      "state": "ok",
+      "articles": 9,
+      "candidates": 25,
+      "errors": []
+    },
+    {
+      "location": "Csomád",
+      "url": "https://www.csomad.hu/hu/csomadi-hirharang/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Csévharaszt",
+      "url": "https://www.csevharaszt.hu/hirek/helyi_hirek",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Csömör",
+      "url": "https://csomor.hu/category/fooldali-hirek/",
+      "state": "error",
+      "articles": 0,
+      "candidates": 0,
+      "errors": [
+        "[WinError 10054] An existing connection was forcibly closed by the remote host"
+      ]
+    },
+    {
+      "location": "Csörög",
+      "url": "https://csorog.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 1,
+      "errors": []
+    },
+    {
+      "location": "Csővár",
+      "url": "https://www.csovar.hu/index.php/hirek",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 179,
+      "errors": []
+    },
+    {
+      "location": "Dabas",
+      "url": "https://www.dabas.hu/",
+      "state": "partial",
+      "articles": 3,
+      "candidates": 45,
+      "errors": [
+        "https://www.dabas.hu/index.php?Itemid=181: HTTP Error 404: Not Found"
+      ]
+    },
+    {
+      "location": "Diósd",
+      "url": "https://diosd.hu/",
+      "state": "ok",
+      "articles": 3,
+      "candidates": 23,
+      "errors": []
+    },
+    {
+      "location": "Dunabogdány",
+      "url": "https://www.dunabogdany.hu/aktualis-hirek/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 10,
+      "errors": []
+    },
+    {
+      "location": "Dunaharaszti",
+      "url": "https://dunaharaszti.hu/hirek",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 32,
+      "errors": []
+    },
+    {
+      "location": "Dunakeszi",
+      "url": "https://dunakeszi.hu/hirek/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Dunavarsány",
+      "url": "https://dunavarsany.hu/index.php/category/hirek/",
+      "state": "ok",
+      "articles": 5,
+      "candidates": 20,
+      "errors": []
+    },
+    {
+      "location": "Dánszentmiklós",
+      "url": "https://danszentmiklos.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Dány",
+      "url": "https://dany.hu/node",
+      "state": "ok",
+      "articles": 1,
+      "candidates": 25,
+      "errors": []
+    },
+    {
+      "location": "Délegyháza",
+      "url": "https://www.delegyhaza.hu/hirek",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Dömsöd",
+      "url": "https://www.domsod.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 21,
+      "errors": []
+    },
+    {
+      "location": "Ecser",
+      "url": "https://ecser.hu/aktualis/hirek.php",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Erdőkertes",
+      "url": "https://erdokertes.hu/hirek/",
+      "state": "ok",
+      "articles": 4,
+      "candidates": 212,
+      "errors": []
+    },
+    {
+      "location": "Farmos",
+      "url": "https://farmos.asp.lgov.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Felsőpakony",
+      "url": "https://felsopakony.hu/hirfolyam/",
+      "state": "ok",
+      "articles": 3,
+      "candidates": 18,
+      "errors": []
+    },
+    {
+      "location": "Fót",
+      "url": "https://fot.hu/category/hirek/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": [
+        "feed: XML or text declaration not at start of entity: line 3, column 0"
+      ]
+    },
+    {
+      "location": "Galgagyörk",
+      "url": "https://www.galgagyork.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 27,
+      "errors": [
+        "feed: undefined entity: line 11, column 15"
+      ]
+    },
+    {
+      "location": "Galgahévíz",
+      "url": "https://galgaheviz.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 31,
+      "errors": [
+        "https://galgaheviz.hu/bursa-hungaricafelsooktatasi-onkormanyzati-osztondijpalyazat-2027: HTTP Error 503: Service Unavailable",
+        "https://galgaheviz.hu/elkeszult-galgaheviz-fakatasztere: HTTP Error 503: Service Unavailable",
+        "https://galgaheviz.hu/gh-1581-2026-ingatlan-arveresi-hirdetmeny: HTTP Error 503: Service Unavailable",
+        "https://galgaheviz.hu/roma-nemzetisegi-onkormanyzat-kepviselo-testuleti-ules-meghivo-2026-09-09: HTTP Error 503: Service Unavailable",
+        "https://galgaheviz.hu/testuleti-ules-meghivo-2026-09-09: HTTP Error 503: Service Unavailable",
+        "https://galgaheviz.hu/igenylolap-gyermeketkeztetes-iskola: HTTP Error 503: Service Unavailable",
+        "https://galgaheviz.hu/igazgatasi-szunet: HTTP Error 503: Service Unavailable",
+        "https://galgaheviz.hu/gh-1536-1-2026-hatarozat-i-foku-vizkorlatozasrol: HTTP Error 503: Service Unavailable",
+        "https://galgaheviz.hu/szolo-aranyszinu-sargasag-betegseg-lakossagi-tajekoztato: HTTP Error 503: Service Unavailable",
+        "https://galgaheviz.hu/palyazati-felhivas-modositott-ingatlan-ertekesitesre: HTTP Error 503: Service Unavailable",
+        "https://galgaheviz.hu/lakossagi-tajekoztato-monostori-utca-mvm-munkalatok: HTTP Error 503: Service Unavailable",
+        "https://galgaheviz.hu/tajekoztato-afrikai-sertespestisrol: HTTP Error 503: Service Unavailable",
+        "https://galgaheviz.hu/gh-1443-2026-13-572850-301-vadaszterulet-hirdetmeny: HTTP Error 503: Service Unavailable",
+        "https://galgaheviz.hu/allashirdetes-kemenysepro-mester-szakmunkas-es-betanitott-munkas: HTTP Error 503: Service Unavailable"
+      ]
+    },
+    {
+      "location": "Galgamácsa",
+      "url": "https://galgamacsa.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Gomba",
+      "url": "https://gomba.hu/",
+      "state": "partial",
+      "articles": 1,
+      "candidates": 10,
+      "errors": [
+        "feed: undefined entity: line 11, column 15"
+      ]
+    },
+    {
+      "location": "Gyál",
+      "url": "https://gyal.hu/",
+      "state": "ok",
+      "articles": 8,
+      "candidates": 10,
+      "errors": []
+    },
+    {
+      "location": "Gyömrő",
+      "url": "https://www.gyomro.hu/hirek.html",
+      "state": "ok",
+      "articles": 4,
+      "candidates": 8,
+      "errors": []
+    },
+    {
+      "location": "Göd",
+      "url": "https://god.hu/aktualis/hirek/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 234,
+      "errors": []
+    },
+    {
+      "location": "Gödöllő",
+      "url": "https://www.godollo.hu/kategoria/hirek/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 10,
+      "errors": []
+    },
+    {
+      "location": "Halásztelek",
+      "url": "https://halasztelek.hu/aktualis",
+      "state": "ok",
+      "articles": 1,
+      "candidates": 17,
+      "errors": []
+    },
+    {
+      "location": "Herceghalom",
+      "url": "https://herceghalom.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 18,
+      "errors": [
+        "https://www.herceghalom.hu/?module=news&action=getfile&fid=303146: invalid literal for int() with base 10: '8A�����p�C�h��#\\t�S\\x17\\x08A(�[�\\x12}s�\\x13\\x1a�HL\\x04^\\x0ctQGe\\x19��0�\\x14�(�.\\x0foc�6��P�B�w\\x15�����Vy��M\\x1bǄ\\x1a����Dy��d�1��c\\x1e&s�Z\\x16V���\\x17_�(�Q�}�85����p\\x12��O�h����v1��Vўˣ� J�LՃ��]>��p"
+      ]
+    },
+    {
+      "location": "Hernád",
+      "url": "https://www.hernad.hu/",
+      "state": "ok",
+      "articles": 3,
+      "candidates": 30,
+      "errors": []
+    },
+    {
+      "location": "Hévízgyörk",
+      "url": "https://hevizgyork.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Iklad",
+      "url": "https://iklad.hu/",
+      "state": "ok",
+      "articles": 1,
+      "candidates": 17,
+      "errors": []
+    },
+    {
+      "location": "Inárcs",
+      "url": "https://inarcs.asp.lgov.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 1,
+      "errors": []
+    },
+    {
+      "location": "Ipolydamásd",
+      "url": "https://damasdhivatal.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 15,
+      "errors": []
+    },
+    {
+      "location": "Ipolytölgyes",
+      "url": "https://www.ipolytolgyes.hu/category/hirek/",
+      "state": "ok",
+      "articles": 1,
+      "candidates": 20,
+      "errors": []
+    },
+    {
+      "location": "Isaszeg",
+      "url": "https://isaszeg.asp.lgov.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 1,
+      "errors": []
+    },
+    {
+      "location": "Jászkarajenő",
+      "url": "https://jaszkarajeno.asp.lgov.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 2,
+      "errors": []
+    },
+    {
+      "location": "Kakucs",
+      "url": "https://kakucs.hu/hirek",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Kartal",
+      "url": "https://www.kartal.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 22,
+      "errors": []
+    },
+    {
+      "location": "Kemence",
+      "url": "https://kemence.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 20,
+      "errors": []
+    },
+    {
+      "location": "Kerepes",
+      "url": "https://www.kerepes.hu/aktualitasok/hirek/",
+      "state": "ok",
+      "articles": 1,
+      "candidates": 25,
+      "errors": []
+    },
+    {
+      "location": "Kiskunlacháza",
+      "url": "https://kiskunlachaza.hu/hirek/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 14,
+      "errors": []
+    },
+    {
+      "location": "Kismaros",
+      "url": "https://kismaros.hu/category/aktualis/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 20,
+      "errors": []
+    },
+    {
+      "location": "Kisnémedi",
+      "url": "https://kisnemedi.asp.lgov.hu/helyi-hirek",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Kisoroszi",
+      "url": "https://www.kisoroszi.hu/hirek",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Kistarcsa",
+      "url": "https://www.kistarcsa.hu/telepules/hirek",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 32,
+      "errors": [
+        "https://www.kistarcsa.hu/telepules/telepules/kistarcsa: <urlopen error [Errno 11001] getaddrinfo failed>",
+        "https://www.kistarcsa.hu/telepules/telepules/kikapcsolodas: <urlopen error [Errno 11001] getaddrinfo failed>",
+        "https://www.kistarcsa.hu/telepules/telepules/hirek: <urlopen error [Errno 11001] getaddrinfo failed>",
+        "https://www.kistarcsa.hu/telepules/telepules/kozossegeink: <urlopen error [Errno 11001] getaddrinfo failed>",
+        "https://www.kistarcsa.hu/telepules/telepules/fejlesztes: <urlopen error [Errno 11001] getaddrinfo failed>",
+        "https://www.kistarcsa.hu/telepules/telepules/kozlekedes: <urlopen error [Errno 11001] getaddrinfo failed>",
+        "https://www.kistarcsa.hu/telepules/onkormanyzat/vezetok: <urlopen error [Errno 11001] getaddrinfo failed>",
+        "https://www.kistarcsa.hu/telepules/onkormanyzat/kepviselo-testulet: <urlopen error [Errno 11001] getaddrinfo failed>",
+        "https://www.kistarcsa.hu/telepules/onkormanyzat/onkormanyzati_mukodes: <urlopen error [Errno 11001] getaddrinfo failed>",
+        "https://www.kistarcsa.hu/telepules/onkormanyzat/bizottsagok: <urlopen error [Errno 11001] getaddrinfo failed>",
+        "https://www.kistarcsa.hu/telepules/onkormanyzat/donteshozatal: <urlopen error [Errno 11001] getaddrinfo failed>",
+        "https://www.kistarcsa.hu/telepules/onkormanyzat/nemzetisegi_onkormanyzatok: <urlopen error [Errno 11001] getaddrinfo failed>",
+        "https://www.kistarcsa.hu/telepules/hivatal/polgarmesteri_hivatal: <urlopen error [Errno 11001] getaddrinfo failed>",
+        "https://www.kistarcsa.hu/telepules/hivatal/felhivasok_hirdetmenyek_tajekoztatok: <urlopen error [Errno 11001] getaddrinfo failed>",
+        "https://www.kistarcsa.hu/telepules/ugyintezes/ugyfelfogadas: <urlopen error [Errno 11001] getaddrinfo failed>",
+        "https://www.kistarcsa.hu/telepules/ugyintezes/nyomtatvanyok: <urlopen error [Errno 11001] getaddrinfo failed>",
+        "https://www.kistarcsa.hu/telepules/ugyintezes/adougyi_bankszamlaszamok: <urlopen error [Errno 11001] getaddrinfo failed>",
+        "https://www.kistarcsa.hu/telepules/ugyintezes/bejelentesek: <urlopen error [Errno 11001] getaddrinfo failed>",
+        "https://www.kistarcsa.hu/telepules/intezmenyrendszer/kozneveles: <urlopen error [Errno 11001] getaddrinfo failed>",
+        "https://www.kistarcsa.hu/telepules/intezmenyrendszer/egeszsegugy: <urlopen error [Errno 11001] getaddrinfo failed>"
+      ]
+    },
+    {
+      "location": "Kocsér",
+      "url": "https://kocser.hu/",
+      "state": "partial",
+      "articles": 2,
+      "candidates": 31,
+      "errors": [
+        "feed: XML or text declaration not at start of entity: line 2, column 0"
+      ]
+    },
+    {
+      "location": "Kosd",
+      "url": "https://kosd.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Kóka",
+      "url": "https://koka.asp.lgov.hu/helyi-hirek",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Kóspallag",
+      "url": "https://kospallag.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 20,
+      "errors": []
+    },
+    {
+      "location": "Kőröstetétlen",
+      "url": "https://www.korostetetlen.hu/index.php?t=9",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Letkés",
+      "url": "https://letkes.hu/",
+      "state": "ok",
+      "articles": 1,
+      "candidates": 21,
+      "errors": []
+    },
+    {
+      "location": "Leányfalu",
+      "url": "https://leanyfalu.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 7,
+      "errors": []
+    },
+    {
+      "location": "Lórév",
+      "url": "https://lorev.hu/kozlemenyek/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 12,
+      "errors": []
+    },
+    {
+      "location": "Maglód",
+      "url": "https://maglod.hu/?megjelenites=hirkategoriak",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 12,
+      "errors": []
+    },
+    {
+      "location": "Majosháza",
+      "url": "https://majoshaza.hu/index.php/hirek",
+      "state": "ok",
+      "articles": 6,
+      "candidates": 10,
+      "errors": []
+    },
+    {
+      "location": "Makád",
+      "url": "https://makad.hu/index.php",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Mende",
+      "url": "https://mende.hu/hirek/category/hirek-j8/",
+      "state": "ok",
+      "articles": 2,
+      "candidates": 20,
+      "errors": []
+    },
+    {
+      "location": "Mogyoród",
+      "url": "https://mogyorod.asp.lgov.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 2,
+      "errors": []
+    },
+    {
+      "location": "Monor",
+      "url": "https://monor.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 169,
+      "errors": []
+    },
+    {
+      "location": "Monorierdő",
+      "url": "https://monorierdo.hu/hirek/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 22,
+      "errors": []
+    },
+    {
+      "location": "Márianosztra",
+      "url": "https://nosztrahivatal.hu/osszes-hir/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 40,
+      "errors": []
+    },
+    {
+      "location": "Nagykovácsi",
+      "url": "https://nagykovacsi.hu/hirek",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 20,
+      "errors": []
+    },
+    {
+      "location": "Nagykáta",
+      "url": "https://nagykata.hu/",
+      "state": "ok",
+      "articles": 1,
+      "candidates": 9,
+      "errors": []
+    },
+    {
+      "location": "Nagykőrös",
+      "url": "https://nagykoros.hu/hirek/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 312,
+      "errors": []
+    },
+    {
+      "location": "Nagymaros",
+      "url": "https://nagymaros.hu/hirek/",
+      "state": "ok",
+      "articles": 2,
+      "candidates": 23,
+      "errors": []
+    },
+    {
+      "location": "Nagytarcsa",
+      "url": "https://nagytarcsa.hu/",
+      "state": "ok",
+      "articles": 2,
+      "candidates": 10,
+      "errors": []
+    },
+    {
+      "location": "Nyáregyháza",
+      "url": "https://nyaregyhaza.hu/hirek",
+      "state": "ok",
+      "articles": 5,
+      "candidates": 31,
+      "errors": []
+    },
+    {
+      "location": "Nyársapát",
+      "url": "https://nyarsapat.hu/",
+      "state": "error",
+      "articles": 0,
+      "candidates": 0,
+      "errors": [
+        "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1082)>"
+      ]
+    },
+    {
+      "location": "Penc",
+      "url": "https://penc.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 3,
+      "errors": []
+    },
+    {
+      "location": "Perbál",
+      "url": "https://perbal.hu/",
+      "state": "ok",
+      "articles": 3,
+      "candidates": 10,
+      "errors": []
+    },
+    {
+      "location": "Perőcsény",
+      "url": "https://perocseny.hu/?cat=11",
+      "state": "ok",
+      "articles": 2,
+      "candidates": 20,
+      "errors": []
+    },
+    {
+      "location": "Pilis",
+      "url": "https://www.pilis.hu/app/cms/PilisApp/index?id=1",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Pilisborosjenő",
+      "url": "https://pilisborosjeno.hu/hirek/",
+      "state": "ok",
+      "articles": 1,
+      "candidates": 30,
+      "errors": []
+    },
+    {
+      "location": "Piliscsaba",
+      "url": "https://piliscsaba.hu/hirek",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Pilisjászfalu",
+      "url": "https://pilisjaszfalu.hu/category/onkormanyzat/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 21,
+      "errors": []
+    },
+    {
+      "location": "Pilisszentiván",
+      "url": "https://pilisszentivan.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Pilisszentkereszt",
+      "url": "https://pilisszentkereszt.hu/",
+      "state": "ok",
+      "articles": 1,
+      "candidates": 35,
+      "errors": []
+    },
+    {
+      "location": "Pilisszentlászló",
+      "url": "https://pilisszentlaszlo.hu/category/hirek/",
+      "state": "ok",
+      "articles": 2,
+      "candidates": 10,
+      "errors": []
+    },
+    {
+      "location": "Pilisvörösvár",
+      "url": "https://pilisvorosvar.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Pomáz",
+      "url": "https://pomaz.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Pusztavacs",
+      "url": "https://pusztavacs.asp.lgov.hu/helyi-hirek",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Pusztazámor",
+      "url": "https://pusztazamor.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Pánd",
+      "url": "https://pand.asp.lgov.hu/helyi-hirek",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Páty",
+      "url": "https://paty.hu/hirek",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Pécel",
+      "url": "https://pecel.hu/hirek/",
+      "state": "ok",
+      "articles": 7,
+      "candidates": 27,
+      "errors": []
+    },
+    {
+      "location": "Péteri",
+      "url": "https://www.peteri.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 5,
+      "errors": [
+        "https://www.peteri.hu/hirek/303383/meghÍvo: 'ascii' codec can't encode character '\\xcd' in position 22: ordinal not in range(128)"
+      ]
+    },
+    {
+      "location": "Püspökhatvan",
+      "url": "https://www.puspokhatvan.hu/index.php/puspokhatvan-hirek-menu",
+      "state": "ok",
+      "articles": 1,
+      "candidates": 40,
+      "errors": []
+    },
+    {
+      "location": "Püspökszilágy",
+      "url": "https://puspokszilagy.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 13,
+      "errors": []
+    },
+    {
+      "location": "Remeteszőlős",
+      "url": "https://remeteszolos.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Ráckeve",
+      "url": "https://www.rackeve.hu/",
+      "state": "ok",
+      "articles": 1,
+      "candidates": 18,
+      "errors": []
+    },
+    {
+      "location": "Rád",
+      "url": "https://www.rad.hu/index.php/rad-hirek-menu",
+      "state": "ok",
+      "articles": 1,
+      "candidates": 214,
+      "errors": []
+    },
+    {
+      "location": "Solymár",
+      "url": "https://www.solymar.hu/hirek",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Szada",
+      "url": "https://szada.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Szentendre",
+      "url": "https://szentendre.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Szentlőrinckáta",
+      "url": "https://szentlorinckata.hu/category/hirek/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 10,
+      "errors": []
+    },
+    {
+      "location": "Szentmártonkáta",
+      "url": "https://szentmartonkata.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 2,
+      "errors": []
+    },
+    {
+      "location": "Szigetbecse",
+      "url": "https://szigetbecse.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Szigetcsép",
+      "url": "https://szigetcsep.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 8,
+      "errors": []
+    },
+    {
+      "location": "Szigethalom",
+      "url": "https://szigethalom.asp.lgov.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 2,
+      "errors": []
+    },
+    {
+      "location": "Szigetmonostor",
+      "url": "https://szigetmonostor.hu/hirek/",
+      "state": "partial",
+      "articles": 5,
+      "candidates": 20,
+      "errors": [
+        "Per-source time budget reached; remaining candidates deferred."
+      ]
+    },
+    {
+      "location": "Szigetszentmiklós",
+      "url": "https://szigetszentmiklos.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Szigetszentmárton",
+      "url": "https://www.szigetszentmarton.hu/hirek-esemenyek",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Szigetújfalu",
+      "url": "https://szigetujfalu.hu/",
+      "state": "ok",
+      "articles": 2,
+      "candidates": 17,
+      "errors": []
+    },
+    {
+      "location": "Szob",
+      "url": "https://szob.hu/kategoriak/hirek/",
+      "state": "ok",
+      "articles": 1,
+      "candidates": 20,
+      "errors": []
+    },
+    {
+      "location": "Szokolya",
+      "url": "https://szokolya.hu/hirek",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 12,
+      "errors": []
+    },
+    {
+      "location": "Százhalombatta",
+      "url": "https://hirtukor.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 16,
+      "errors": []
+    },
+    {
+      "location": "Sződ",
+      "url": "https://www.szod.hu/index.php/szod-telepulesunk-menu/szod-hirek-menu",
+      "state": "ok",
+      "articles": 1,
+      "candidates": 210,
+      "errors": []
+    },
+    {
+      "location": "Sződliget",
+      "url": "https://szodliget.asp.lgov.hu/helyi-hirek",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Sóskút",
+      "url": "https://www.soskut.hu/?fname=HELYI_HIREK&module=news",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 12,
+      "errors": []
+    },
+    {
+      "location": "Sülysáp",
+      "url": "https://www.sulysap.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 15,
+      "errors": []
+    },
+    {
+      "location": "Tahitótfalu",
+      "url": "https://tahitotfalu.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Taksony",
+      "url": "https://www.taksony.hu/",
+      "state": "ok",
+      "articles": 3,
+      "candidates": 21,
+      "errors": []
+    },
+    {
+      "location": "Tatárszentgyörgy",
+      "url": "https://www.tatarszentgyorgy.hu/",
+      "state": "ok",
+      "articles": 1,
+      "candidates": 18,
+      "errors": []
+    },
+    {
+      "location": "Telki",
+      "url": "https://telki.hu/",
+      "state": "ok",
+      "articles": 1,
+      "candidates": 5,
+      "errors": []
+    },
+    {
+      "location": "Tinnye",
+      "url": "https://www.tinnye.hu/hirek",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 25,
+      "errors": []
+    },
+    {
+      "location": "Tura",
+      "url": "https://tura.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 1,
+      "errors": []
+    },
+    {
+      "location": "Táborfalva",
+      "url": "https://taborfalva.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 23,
+      "errors": []
+    },
+    {
+      "location": "Tápióbicske",
+      "url": "https://tapiobicske.hu/category/hirek-es-aktualitasok/kozeleti-hirek/",
+      "state": "ok",
+      "articles": 1,
+      "candidates": 10,
+      "errors": []
+    },
+    {
+      "location": "Tápiógyörgye",
+      "url": "https://tapiogyorgye.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Tápiószentmárton",
+      "url": "https://tapioszentmarton.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Tápiószőlős",
+      "url": "https://tapioszolos.asp.lgov.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Tápióság",
+      "url": "https://tapiosag.hu/",
+      "state": "ok",
+      "articles": 2,
+      "candidates": 40,
+      "errors": []
+    },
+    {
+      "location": "Tárnok",
+      "url": "https://tarnok.hu/aktualis",
+      "state": "ok",
+      "articles": 1,
+      "candidates": 10,
+      "errors": []
+    },
+    {
+      "location": "Tóalmás",
+      "url": "https://www.toalmas.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 32,
+      "errors": []
+    },
+    {
+      "location": "Tök",
+      "url": "https://tok.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Tököl",
+      "url": "https://tokol.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 10,
+      "errors": []
+    },
+    {
+      "location": "Törtel",
+      "url": "https://tortel.asp.lgov.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 1,
+      "errors": []
+    },
+    {
+      "location": "Törökbálint",
+      "url": "https://www.torokbalint.hu/app/cms/TorokbalintApp/index?id=5",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Valkó",
+      "url": "https://www.valko.hu/category/hirek/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 30,
+      "errors": []
+    },
+    {
+      "location": "Vasad",
+      "url": "https://vasad.asp.lgov.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 1,
+      "errors": []
+    },
+    {
+      "location": "Vecsés",
+      "url": "https://vecsesitajekoztato.hu/onkormanyzat/",
+      "state": "ok",
+      "articles": 2,
+      "candidates": 71,
+      "errors": []
+    },
+    {
+      "location": "Veresegyház",
+      "url": "https://veresegyhaz.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Verseg",
+      "url": "https://www.verseg-kozseg.com/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 166,
+      "errors": []
+    },
+    {
+      "location": "Verőce",
+      "url": "https://www.xn--verce-69a.hu/idovonal/",
+      "state": "ok",
+      "articles": 12,
+      "candidates": 410,
+      "errors": []
+    },
+    {
+      "location": "Visegrád",
+      "url": "https://www.visegrad.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 17,
+      "errors": []
+    },
+    {
+      "location": "Vác",
+      "url": "https://www.vac.hu/vac_varosi_hirek.html",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 1,
+      "errors": []
+    },
+    {
+      "location": "Vácduka",
+      "url": "https://vacduka.hu/hirek/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 20,
+      "errors": []
+    },
+    {
+      "location": "Vácegres",
+      "url": "https://www.vacegres.hu/tartalom/category-items/2-tartalom/4-hirek",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 60,
+      "errors": []
+    },
+    {
+      "location": "Váchartyán",
+      "url": "https://vachartyan.hu/index.php/vachartyan-hirek-menu",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 70,
+      "errors": []
+    },
+    {
+      "location": "Váckisújfalu",
+      "url": "https://vackisujfalu.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Vácrátót",
+      "url": "https://vacratot.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 10,
+      "errors": []
+    },
+    {
+      "location": "Vácszentlászló",
+      "url": "https://vacszentlaszlo.hu/hirek-informaciok/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 7,
+      "errors": [
+        "feed: undefined entity: line 11, column 9"
+      ]
+    },
+    {
+      "location": "Zebegény",
+      "url": "https://www.zebegeny.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 13,
+      "errors": [
+        "feed: XML or text declaration not at start of entity: line 2, column 0"
+      ]
+    },
+    {
+      "location": "Zsámbok",
+      "url": "https://zsambok.asp.lgov.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 2,
+      "errors": []
+    },
+    {
+      "location": "Zsámbék",
+      "url": "https://zsambek.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 4,
+      "errors": []
+    },
+    {
+      "location": "Áporka",
+      "url": "https://www.aporka.hu/kiemelt-kozlemenyek-hirek.html?limitstart=0",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 6,
+      "errors": []
+    },
+    {
+      "location": "Érd",
+      "url": "https://www.erd.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Ócsa",
+      "url": "https://ocsa.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Újhartyán",
+      "url": "https://ujhartyan.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 1,
+      "errors": []
+    },
+    {
+      "location": "Újlengyel",
+      "url": "https://ujlengyel.asp.lgov.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Újszilvás",
+      "url": "https://ujszilvas.asp.lgov.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 1,
+      "errors": []
+    },
+    {
+      "location": "Úri",
+      "url": "https://www.uri.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 10,
+      "errors": []
+    },
+    {
+      "location": "Üllő",
+      "url": "https://www.ullo.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Üröm",
+      "url": "https://urom.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 0,
+      "errors": []
+    },
+    {
+      "location": "Őrbottyán",
+      "url": "https://www.orbottyan.hu/",
+      "state": "needs_review",
+      "articles": 0,
+      "candidates": 1,
+      "errors": []
+    }
+  ]
+}

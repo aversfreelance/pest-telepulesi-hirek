@@ -1,2 +1,4 @@
 __pycache__/
 *.pyc
+*_temp.py
+review/initial-batch.json

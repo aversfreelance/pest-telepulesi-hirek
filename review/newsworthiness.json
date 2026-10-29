@@ -1,0 +1,1122 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-10-29T17:35:18.186650+00:00",
+  "decisions": [
+    {
+      "id": "hir-18187234a41ffb08b1dc",
+      "sourceTitle": "Testületi hírek",
+      "sourceDate": "2026-10-29",
+      "decision": "include",
+      "reason": "Érdemi egészségügyi és önkormányzati döntések.",
+      "category": "onkormanyzat",
+      "excerpt": "Pécel képviselő-testülete a háziorvosi és fogászati ellátás jövőjéről, valamint helyi támogatásokról döntött. A fogászati körzetek külön helyiségbe költöztetésével a rendelési idő is bővülhet."
+    },
+    {
+      "id": "hir-a9c48462c941d931861c",
+      "sourceTitle": "Márton napi lámpás felvonulás",
+      "sourceDate": "2026-10-29",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-cc85fba088d1823f9501",
+      "sourceTitle": "Tájékoztatás forgalmirend-változásról a 2. sz. főút 43+667 – 43+847 km szelvények (Pest-Nógrád megyehatár) közötti szakaszon",
+      "sourceDate": "2026-10-29",
+      "decision": "include",
+      "reason": "Térségi főúti forgalomkorlátozás konkrét időpontokkal.",
+      "category": "kozlekedes",
+      "excerpt": "November 3–5. között burkolatjavítás miatt félpályás korlátozásra és hosszabb menetidőre kell számítani a 2-es főúton, a Pest–Nógrád megyehatárnál."
+    },
+    {
+      "id": "hir-0d1857ba8bd24b802e5b",
+      "sourceTitle": "Tájékoztató képviselői iroda megnyitásáról",
+      "sourceDate": "2026-10-29",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-f2940cbba5220c6d91ed",
+      "sourceTitle": "A Verőcei Művelődési Ház 2026. november havi programajánlata",
+      "sourceDate": "2026-10-29",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-b6a1a2da9277cd9d2828",
+      "sourceTitle": "A Verőcei Művelődési Ház állandó programjai 2026-ban",
+      "sourceDate": "2026-10-29",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-f17ee59426f95fadc8a3",
+      "sourceTitle": "Sződ Község Önkormányzata",
+      "sourceDate": "2026-10-29",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-3d1dfb0541a63d01b53e",
+      "sourceTitle": "Nincs cím",
+      "sourceDate": "2026-10-29",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-d7c55847c8263e01522d",
+      "sourceTitle": "Adventi ablakdíszítés Verőcén- csatlakozz Te is!",
+      "sourceDate": "2026-10-29",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-b1f967f31c40b76faefe",
+      "sourceTitle": "Gyere, hallgassunk zenét! – Családi koncertmatiné mesével",
+      "sourceDate": "2026-10-29",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-f3da6f5d232962fbb7b4",
+      "sourceTitle": "Virágból Alma VII. – Lukács Andrea tanítványainak kiállítása",
+      "sourceDate": "2026-10-29",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-20316ef52ebc479ab919",
+      "sourceTitle": "Tűzvédelem halottak napján",
+      "sourceDate": "2026-10-29",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-714a79f92578cc6fea5e",
+      "sourceTitle": "Tájékoztatás az ivóvízhálózat mechanikai (szivacsos) mosatási munkálatairól",
+      "sourceDate": "2026-10-29",
+      "decision": "include",
+      "reason": "A teljes település vízellátását érintő karbantartás.",
+      "category": "kozmu",
+      "excerpt": "November 3–30. között tisztítják Nyáregyháza ivóvízhálózatát. A munkák idején vízhiány és nyomásingadozás is előfordulhat; a szolgáltató térképen jelzi a munkaterületeket."
+    },
+    {
+      "id": "hir-13265664bd2520ce448f",
+      "sourceTitle": "Influenza elleni védőoltás",
+      "sourceDate": "2026-10-29",
+      "decision": "include",
+      "reason": "Új, helyben elérhető szezonális ellátási információ.",
+      "category": "egeszsegugy",
+      "excerpt": "Gombán október 29-től elérhető a szezonális influenzaoltás. A háziorvosi tájékoztató megadja az oltások felvételének helyi rendjét."
+    },
+    {
+      "id": "hir-e68b182fb6d5ed37c13b",
+      "sourceTitle": "Házszám kihelyezés - Ráckeve Város Honlapja",
+      "sourceDate": "2026-10-29",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-22fa1bd2e29e0411a5fc",
+      "sourceTitle": "Meghívó közmeghallgatásra!",
+      "sourceDate": "2026-10-29",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-10f2a31aa598ca9018f4",
+      "sourceTitle": "Összefogtak a térség települései az orvosi ügyelet visszaállításáért",
+      "sourceDate": "2026-10-29",
+      "decision": "include",
+      "reason": "Több települést érintő orvosi ügyeleti kezdeményezés.",
+      "category": "egeszsegugy",
+      "excerpt": "Ecser, Maglód, Péteri és Gyömrő vezetői az orvosi ügyelet térségi visszaállításáról egyeztettek. A megvalósításhoz kormányzati jóváhagyást és pénzügyi támogatást kérnének."
+    },
+    {
+      "id": "hir-7ec1767f8874ad53a10d",
+      "sourceTitle": "Tájékoztató",
+      "sourceDate": "2026-10-29",
+      "decision": "include",
+      "reason": "A forrás leírása konkrét, közelgő útjavításról szól.",
+      "category": "kozlekedes",
+      "excerpt": "Útburkolat-javításhoz kapcsolódó ideiglenes forgalomkorlátozást jeleztek a Rád és Penc közötti útszakaszon. A közlemény a novemberi munkák tervezett ütemezését is ismerteti."
+    },
+    {
+      "id": "hir-15775f6b33f9dd0cfa75",
+      "sourceTitle": "Mobil kormányablak-busz érkezik Szigetmonostorra – 2026.11.05. 13:00-15:00",
+      "sourceDate": "2026-10-29",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-dfebf1df5b5a27065e4d",
+      "sourceTitle": "Új nappali ellátás - Igényfelmérő",
+      "sourceDate": "2026-10-29",
+      "decision": "exclude",
+      "reason": "Ugyanazt a Bugyiba tervezett térségi nappali ellátást ismerteti; a részletesebb, elsődleges bugyi forrást választottam ki."
+    },
+    {
+      "id": "hir-22b8b5fdf98d4897e7de",
+      "sourceTitle": "Majosháza Község Hivatalos Honlapja",
+      "sourceDate": "2026-10-29",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-0751379a4ccfb46c5a83",
+      "sourceTitle": "Széll Tamásnétól búcsúzunk",
+      "sourceDate": "2026-10-29",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-3c9e99f21a1dc2db8b1e",
+      "sourceTitle": "Rendőreink üzenik!",
+      "sourceDate": "2026-10-29",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-797b0583cd3f080bfb78",
+      "sourceTitle": "ÚJ NAPPALI ELLÁTÁS BUGYI NAGYKÖZSÉGBEN – SEGÍTSEN ÖN IS A TERVEZÉSBEN!",
+      "sourceDate": "2026-10-29",
+      "decision": "include",
+      "reason": "Új térségi nappali ellátás előkészítése, valós lakossági hatással.",
+      "category": "szocialis",
+      "excerpt": "Bugyiban értelmi fogyatékossággal élők nappali ellátását tervezik 2027 első negyedévétől. A kezdeményezők több környező járásban élő családok igényeit mérik fel."
+    },
+    {
+      "id": "hir-094d90a4b72e7e95d3db",
+      "sourceTitle": "Rész-Falugyűlést tartunk!",
+      "sourceDate": "2026-10-29",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-243ee9674bb03361be54",
+      "sourceTitle": "Közmeghallgatást tartunk!",
+      "sourceDate": "2026-10-29",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-3d2d584f1d38b406fb1a",
+      "sourceTitle": "MBH Bank közlemény",
+      "sourceDate": "2026-10-29",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-404fb3838c7d1f86b805",
+      "sourceTitle": "Temetői behajtási rend",
+      "sourceDate": "2026-10-29",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-59cc5114a7b6da62716d",
+      "sourceTitle": "Képviselő-testületi beszámoló: október",
+      "sourceDate": "2026-10-29",
+      "decision": "include",
+      "reason": "Konkrét hulladékkezelési, támogatási és közlekedésbiztonsági döntések.",
+      "category": "onkormanyzat",
+      "excerpt": "Gyál októberi testületi ülésén a hulladéklerakó bővítéséről, új gyalogátkelők előkészítéséről és több helyi támogatásról is döntöttek."
+    },
+    {
+      "id": "hir-f0f625e2122a87ae1000",
+      "sourceTitle": "Intézményvezetői intézkedés",
+      "sourceDate": "2026-10-29",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-8a89607d0d5ef76b9919",
+      "sourceTitle": "Folytatódnak az utcafórumok",
+      "sourceDate": "2026-10-28",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-9091b89e9897e24e5926",
+      "sourceTitle": "Meghívó a Képviselő-testület 2026. október 29-i ülésére",
+      "sourceDate": "2026-10-28",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-6748b3e65519f803bdde",
+      "sourceTitle": "Felhívás parkolás rendjéről",
+      "sourceDate": "2026-10-28",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-cc6f9e00a28b58b1f363",
+      "sourceTitle": "Közlemény a temető nyitva tartásáról",
+      "sourceDate": "2026-10-28",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-aec5434f22010570bde3",
+      "sourceTitle": "Hirdetmény a lejárt sírhelyek megváltásáról és újraváltásáról",
+      "sourceDate": "2026-10-28",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-8bf1789ceb8916db7290",
+      "sourceTitle": "Kormányablak-busz Pilisszentkereszten 2026. november 3. 13.00-15.00",
+      "sourceDate": "2026-10-28",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-75fae96919eb6f316c45",
+      "sourceTitle": "Diósd jövője – kiállítás a város településfejlesztési koncepciójáról",
+      "sourceDate": "2026-10-28",
+      "decision": "include",
+      "reason": "Új településfejlesztési koncepció nyilvános bemutatása.",
+      "category": "fejlesztes",
+      "excerpt": "Elkészült Diósd településfejlesztési koncepciója. A tervezett irányokat október 30. és november 6. között a Kék Géza Közösségi Ház kiállításán ismerhetik meg a helyiek."
+    },
+    {
+      "id": "hir-8f8209b829b3a688831b",
+      "sourceTitle": "RENDŐRSÉGI FELHÍVÁS!",
+      "sourceDate": "2026-10-28",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-1ef5b2a3d849ee0558dc",
+      "sourceTitle": "Közbiztonsági fejlesztések valósultak meg Hernádon is",
+      "sourceDate": "2026-10-28",
+      "decision": "include",
+      "reason": "Megvalósult kamerás és közlekedésbiztonsági fejlesztés.",
+      "category": "kozbiztonsag",
+      "excerpt": "Hernádon hat térfigyelő kamerát cseréltek le, és új sebességmérő kamerát szereltek fel a Váradi úton. A fejlesztés egy több települést érintő térségi program része."
+    },
+    {
+      "id": "hir-047fefcbb4d7d747792b",
+      "sourceTitle": "Bírság helyett odafigyelés: ezeket tegye vagy ne tegye egy ingatlantulajdonos",
+      "sourceDate": "2026-10-28",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-674752ef5c6c45a69a4e",
+      "sourceTitle": "Halottak napi mise a temetőben",
+      "sourceDate": "2026-10-28",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-df839e77422e5197b984",
+      "sourceTitle": "HIRDETMÉNY – Partnerségi-lakossági véleménynyilvánítás – PERBÁL KÖZSÉG HELYI ÉPÍTÉSI SZABÁLYZATÁNAK MÓDOSÍTÁSA A SZÉCHENYI UTCA ÉSZAKI SZAKASZÁNAK ÚJBÓLI, 2026. ÉVI RENDEZÉSE ÉRDEKÉBEN",
+      "sourceDate": "2026-10-28",
+      "decision": "include",
+      "reason": "Konkrét területet érintő szabályozás és aktuális véleményezési lehetőség.",
+      "category": "telepulesrendezes",
+      "excerpt": "Perbál a Széchenyi utca északi szakaszának rendezéséhez módosítaná a helyi építési szabályzatot. A lakossági véleményeket október 29. és november 8. között várják."
+    },
+    {
+      "id": "hir-021430e72ffb0f6b7f75",
+      "sourceTitle": "Közlekedésbiztonsági munkálatok kezdődnek",
+      "sourceDate": "2026-10-28",
+      "decision": "include",
+      "reason": "Megkezdődő fizikai közlekedésbiztonsági beruházás.",
+      "category": "kozlekedes",
+      "excerpt": "Dunavarsányban rázókövet építenek a Bajcsy-Zsilinszky és a Görgey utca kereszteződésében. A háromhetesre tervezett munka október 29-én indul, időszakos korlátozásokkal."
+    },
+    {
+      "id": "hir-dabd9213593cc8c28436",
+      "sourceTitle": "HIRDETMÉNY",
+      "sourceDate": "2026-10-28",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-84a74e0a9b1b20c73c9c",
+      "sourceTitle": "HIRDETMÉNY",
+      "sourceDate": "2026-10-28",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-f482d19e313d4978ec33",
+      "sourceTitle": "Kitűzési értesítő",
+      "sourceDate": "2026-10-28",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-a8cf7f2ef09a23b31157",
+      "sourceTitle": "Intézményvezetői pályázati felhívás",
+      "sourceDate": "2026-10-28",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-de7865735d2cdd0b6753",
+      "sourceTitle": "Pályázati felhívás piacfelügyelő munkakör betöltésére",
+      "sourceDate": "2026-10-28",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-a29aac8c8c3d75c0189c",
+      "sourceTitle": "Tisztelgés olimpiai bajnokaink emléke előtt",
+      "sourceDate": "2026-10-28",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-078f688a745bd0ed7bf3",
+      "sourceTitle": "KONCERT EGY IFJÚ TEHETSÉG JAVÁRA",
+      "sourceDate": "2026-10-28",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-c628cbdba0f54e17655e",
+      "sourceTitle": "Közérdekű információk",
+      "sourceDate": "2026-10-28",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-829f66316f20758001da",
+      "sourceTitle": "Lakossági fórum – Budakeszi településrendezési eszközeinek módosítása kapcsán",
+      "sourceDate": "2026-10-28",
+      "decision": "include",
+      "reason": "A repülőtér funkcióinak bővítését érintő rendezési ügy.",
+      "category": "telepulesrendezes",
+      "excerpt": "Budakeszin a repülőtér funkcióinak bővítéséhez kapcsolódó építési szabályokról tartanak lakossági fórumot november 10-én. A tervanyag nyilvánosan megtekinthető."
+    },
+    {
+      "id": "hir-2c254f677880b04f0f52",
+      "sourceTitle": "Kazinczy Ferenc megemlékezés",
+      "sourceDate": "2026-10-28",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-b1def0ac6851efddc2f8",
+      "sourceTitle": "Ivóvízhálózat fejlesztésről szóló tájékoztató",
+      "sourceDate": "2026-10-28",
+      "decision": "review",
+      "reason": "A lényegi részletek csatolmányban vagy képen vannak; ezek nélkül nem került az aktív ajánlatok közé."
+    },
+    {
+      "id": "hir-b9aa405d6b60e40604c6",
+      "sourceTitle": "Beszámoló repülőtéri látogatásról",
+      "sourceDate": "2026-10-28",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-8a9f987f09968b9ffcb8",
+      "sourceTitle": "Halloween Csobánkán – idén is várják a családokat a rémisztően jó helyszínek!",
+      "sourceDate": "2026-10-28",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-29bc14e5581d65035d11",
+      "sourceTitle": "SZÉN-MONOXID – Az alattomos veszély",
+      "sourceDate": "2026-10-28",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-7be34dfdf1fd93147b50",
+      "sourceTitle": "Nyílt testületi ülés – 2026.11.04.",
+      "sourceDate": "2026-10-28",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-d1fcd36da7bcb7983e85",
+      "sourceTitle": "Majosháza Község Hivatalos Honlapja",
+      "sourceDate": "2026-10-28",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-db3991dc5667b06b6a1e",
+      "sourceTitle": "Bursa Hungarica",
+      "sourceDate": "2026-10-28",
+      "decision": "review",
+      "reason": "A lényegi részletek csatolmányban vagy képen vannak; ezek nélkül nem került az aktív ajánlatok közé."
+    },
+    {
+      "id": "hir-727fe3a575c09f26a444",
+      "sourceTitle": "Majosháza Község Hivatalos Honlapja",
+      "sourceDate": "2026-10-28",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-6c071444d41097246870",
+      "sourceTitle": "KÖZÖSEN A KÖRZETÉRT: Megkezdődtek a lakossági fórumok Abonyban!",
+      "sourceDate": "2026-10-27",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-cf431989505aa2e54c12",
+      "sourceTitle": "Hirdetmény – Lakbér rendelettervezet",
+      "sourceDate": "2026-10-27",
+      "decision": "review",
+      "reason": "Hírértékű lakbérszabályozási ügy, de az oldalon látható és a gépi metaadatban szereplő dátum eltér; ellenőrizendő."
+    },
+    {
+      "id": "hir-fc80b7b2169fe8d3b32e",
+      "sourceTitle": "ELŐRELÉPÉS AZ EGÉSZSÉGÜGYBEN",
+      "sourceDate": "2026-10-27",
+      "decision": "include",
+      "reason": "Új felnőtt háziorvosi körzet létrehozásáról született döntés.",
+      "category": "egeszsegugy",
+      "excerpt": "Erdőkertes képviselő-testülete támogatta a harmadik felnőtt háziorvosi körzet kialakítását. A dokumentumokat továbbították az OKFŐ-nek; a működés megkezdéséhez további lépések szükségesek."
+    },
+    {
+      "id": "hir-d60b71bebe445852dc8b",
+      "sourceTitle": "ISMÉT ELEKTRONIKAI HULLADÉKGYŰJTÉS ERDŐKERTESEN!",
+      "sourceDate": "2026-10-27",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-3d36e241f563adbe3a70",
+      "sourceTitle": "JÁRDA REVITALIZÁCIÓ A MÁRIA UTCA ÉS A MANDULA KÖZ KÖZÖTT!",
+      "sourceDate": "2026-10-27",
+      "decision": "include",
+      "reason": "Járdafelújítás és fennálló ideiglenes forgalmi változás.",
+      "category": "kozlekedes",
+      "excerpt": "Megújul a járda Erdőkertesen, a Mária utca és a Mandula köz között. A november 10-ig tervezett munkák alatt útszűkületre és félpályás korlátozásra kell számítani."
+    },
+    {
+      "id": "hir-401b7cc48172add6130d",
+      "sourceTitle": "Novemberi programok",
+      "sourceDate": "2026-10-27",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-5b184314aeeb6ab343d4",
+      "sourceTitle": "Előterjesztések 2026.11.02.",
+      "sourceDate": "2026-10-27",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-e88281a10d0aefb1ba66",
+      "sourceTitle": "Pótlólagos ösztöndíjpályázat középiskolás, 2–4. évfolyamos diákok részére",
+      "sourceDate": "2026-10-27",
+      "decision": "include",
+      "reason": "Aktuális helyi ösztöndíj-lehetőség konkrét pályázati határidővel.",
+      "category": "oktatas",
+      "excerpt": "Albertirsán pótpályázatot hirdettek a középiskolák 2–4. évfolyamán tanuló diákok ösztöndíjára. A kérelmeket november 9-én 16 óráig lehet benyújtani."
+    },
+    {
+      "id": "hir-a5a14364c92075c447ec",
+      "sourceTitle": "A szülőföld emlékei elevenednek meg Gyócsi Zoltán új könyvében",
+      "sourceDate": "2026-10-27",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-2818d33fdbbdf45ae564",
+      "sourceTitle": "Képviselő-testületi ülés közvetítése",
+      "sourceDate": "2026-10-27",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-5375af0576de78995ca2",
+      "sourceTitle": "Mindenszentek napja plakát",
+      "sourceDate": "2026-10-27",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-5c17feba9f74af2d621a",
+      "sourceTitle": "Pályakarbantartási munkák (2026.11-12.)",
+      "sourceDate": "2026-10-27",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-555d1ba52438e89dc437",
+      "sourceTitle": "Adatvédelmi tisztviselői feladatok ellátására vár ajánlatokat az önkormányzat",
+      "sourceDate": "2026-10-27",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-8245f9ee1a8aa02d804f",
+      "sourceTitle": "TÁJÉKOZTATÁS",
+      "sourceDate": "2026-10-27",
+      "decision": "include",
+      "reason": "Új térítésmentes veszélyes- és elektronikai hulladékgyűjtés előkészítése.",
+      "category": "kornyezet",
+      "excerpt": "Csobánkán ingyenes lakossági veszélyes- és elektronikai hulladékgyűjtést szerveznek. Az elfogadható hulladékok feltételeit már ismertették; a pontos helyszínt és időpontot később közlik."
+    },
+    {
+      "id": "hir-5908c721355a4bac922f",
+      "sourceTitle": "Forgalmi rend változás! Mindenszentek és Halottak napja",
+      "sourceDate": "2026-10-27",
+      "decision": "include",
+      "reason": "Közelgő, többnapos konkrét helyi forgalmi változás.",
+      "category": "kozlekedes",
+      "excerpt": "Abonyban október 30. reggelétől november 2. reggeléig ideiglenesen egyirányúsítanak két utcát a temetők környékén. Az intézkedés a mindenszenteki forgalmat érinti."
+    },
+    {
+      "id": "hir-63bfce1b7f5dcc61e057",
+      "sourceTitle": "Sok fontos városi feladat az osztályvezetői értekezleten",
+      "sourceDate": "2026-10-27",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-3684f214d96768a1e199",
+      "sourceTitle": "KÖZLEMÉNY – környezetvédelmi hatósági eljárás megindításáról",
+      "sourceDate": "2026-10-27",
+      "decision": "review",
+      "reason": "A lényegi részletek csatolmányban vagy képen vannak; ezek nélkül nem került az aktív ajánlatok közé."
+    },
+    {
+      "id": "hir-e5ff2ec5a150e2442515",
+      "sourceTitle": "Felhívás lakossági elektronikai hulladékgyűjtéséről",
+      "sourceDate": "2026-10-27",
+      "decision": "include",
+      "reason": "Aktuális, ingyenes helyi szolgáltatás konkrét feltételekkel.",
+      "category": "kornyezet",
+      "excerpt": "November 21-én lakossági elektronikai hulladékgyűjtést rendeznek Dunavarsányban, a volt laktanya területén. A szolgáltatás a helyi lakosság számára térítésmentes."
+    },
+    {
+      "id": "hir-4001b099dcd7ac818858",
+      "sourceTitle": "MÁV-csoport hirdetménye",
+      "sourceDate": "2026-10-27",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-c08098f28c261b73d6f7",
+      "sourceTitle": "Tájékoztatás a vis maior helyreállítási munkákra kiírt ajánlattételi eljárások bontási időpontjainak változásáról",
+      "sourceDate": "2026-10-26",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-357b19c816d75e799553",
+      "sourceTitle": "Közösségi összefogással szépült meg a Hétvezér park – köszönet a Csobi Egyesületnek!",
+      "sourceDate": "2026-10-26",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-fc2cc0e50c070456593b",
+      "sourceTitle": "ELEKTRONIKAI HULLADÉKGYŰJTÉS",
+      "sourceDate": "2026-10-26",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-50eae1bd49c9c92f2023",
+      "sourceTitle": "Tervezett áramszünetek október 27-én és 28-án",
+      "sourceDate": "2026-10-26",
+      "decision": "exclude",
+      "reason": "Az egyszeri esemény vagy tájékoztatás már elmúlt, illetve a címben szereplő régi évszám ellentmond a friss megjelenésnek."
+    },
+    {
+      "id": "hir-17b8e1f8fc49045b316d",
+      "sourceTitle": "24. Futabony",
+      "sourceDate": "2026-10-26",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-73d988f27ccfb734a336",
+      "sourceTitle": "Hirdetmény – Bangó Henrietta – Pesti központi Kerületi Bíróság",
+      "sourceDate": "2026-10-26",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-d44c563f9a1fc059f564",
+      "sourceTitle": "Tájékoztatás- Fogadóóra",
+      "sourceDate": "2026-10-26",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-17cb8901cb421e6ed044",
+      "sourceTitle": "Tájékoztatás a fogászati rendelés elmaradásáról",
+      "sourceDate": "2026-10-26",
+      "decision": "include",
+      "reason": "Aktuális technikai hiba miatti ellátási fennakadás.",
+      "category": "egeszsegugy",
+      "excerpt": "Szigetmonostoron technikai okból október 30-án is elmarad a fogászati rendelés. Az önkormányzat közlése szerint dolgoznak a hiba mielőbbi elhárításán."
+    },
+    {
+      "id": "hir-803a732bfa1b0fa1b4ae",
+      "sourceTitle": "Hirdetmény – vadászati haszonbérleti díj kifizetés 2026",
+      "sourceDate": "2026-10-26",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-b44e664b5373a0de19d7",
+      "sourceTitle": "Tápióbicske",
+      "sourceDate": "2026-10-26",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-b68b3e78ac57cd1574ad",
+      "sourceTitle": "Vágányzári információ",
+      "sourceDate": "2026-10-26",
+      "decision": "include",
+      "reason": "Hosszabb, előre jelzett vasúti menetrendváltozás.",
+      "category": "kozlekedes",
+      "excerpt": "November 4. és december 1. között a 142-es, Budapest–Lajosmizse vasútvonal egyes vonatai módosított menetrend szerint járnak a kőbánya-kispesti munkák miatt."
+    },
+    {
+      "id": "hir-8db70a24399917ae3dad",
+      "sourceTitle": "Protestáns esték: Himnusz haza",
+      "sourceDate": "2026-10-26",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-9e0b2818d1fe0bb6c986",
+      "sourceTitle": "VÍZHÁLÓZAT-JAVÍTÁS",
+      "sourceDate": "2026-10-26",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-331657e5d35dff09bc09",
+      "sourceTitle": "Figyelem! Módosul a menetrend",
+      "sourceDate": "2026-10-26",
+      "decision": "include",
+      "reason": "Más vasútvonalat érint, ezért nem azonos a gyáli 142-es vonali hírrel.",
+      "category": "kozlekedes",
+      "excerpt": "A 100a, Budapest–Cegléd–Szolnok vonalon november 4-től december 1-ig egyes vonatok menetrendje módosul a kőbánya-kispesti karbantartás miatt."
+    },
+    {
+      "id": "hir-cdbb72a8c2e09e61ba58",
+      "sourceTitle": "Gyászol Abony: Elhunyt Széll Tamásné Ildikó",
+      "sourceDate": "2026-10-26",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-fa874389b59d3e069ea1",
+      "sourceTitle": "VÍZHÁLÓZAT-JAVÍTÁS",
+      "sourceDate": "2026-10-26",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-a6daa718e605ae447a6d",
+      "sourceTitle": "Tájékoztatás védőzóna kiterjesztéséről",
+      "sourceDate": "2026-10-26",
+      "decision": "include",
+      "reason": "Új növényegészségügyi védőzóna érinti a helyi szőlőtulajdonosokat.",
+      "category": "kornyezet",
+      "excerpt": "Albertirsa területének egy részét védőzónává jelölték a szőlő aranyszínű sárgaságát okozó fertőzés visszaszorítására. A területhatárokról térképet, a teendőkről határozatot közöltek."
+    },
+    {
+      "id": "hir-eaa30504fa85baf335b0",
+      "sourceTitle": "Kormányablak busz kitelepülés",
+      "sourceDate": "2026-10-26",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-855e6466a7478f28f679",
+      "sourceTitle": "Figyelem! EBÖSSZEÍRÁS Abonyban",
+      "sourceDate": "2026-10-26",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-1e19c58cb908758f5939",
+      "sourceTitle": "Könyvbemutatók a közösségi térben",
+      "sourceDate": "2026-10-26",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-23cab3c48697d813d3c8",
+      "sourceTitle": "Képviselő-testületi ülés meghívó",
+      "sourceDate": "2026-10-26",
+      "decision": "exclude",
+      "reason": "Az egyszeri esemény vagy tájékoztatás már elmúlt, illetve a címben szereplő régi évszám ellentmond a friss megjelenésnek."
+    },
+    {
+      "id": "hir-6940418bf2a23d4e478f",
+      "sourceTitle": "Meghívó – Képviselő-testületi ülés",
+      "sourceDate": "2026-10-26",
+      "decision": "exclude",
+      "reason": "Az egyszeri esemény vagy tájékoztatás már elmúlt, illetve a címben szereplő régi évszám ellentmond a friss megjelenésnek."
+    },
+    {
+      "id": "hir-533a54766027b516bffe",
+      "sourceTitle": "Tájékoztató",
+      "sourceDate": "2026-10-26",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-ced97dfcbbb04f6e6910",
+      "sourceTitle": "Tomiteker Thaiföldön",
+      "sourceDate": "2026-10-26",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-2dbf226656a2047ee433",
+      "sourceTitle": "Szakrális helyek – Versényi Péter előadása a Honismereti természetjárás sorozatban",
+      "sourceDate": "2026-10-26",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-7a94464654b1651f8d5e",
+      "sourceTitle": "Nemez szakkör indul a művelődési házban",
+      "sourceDate": "2026-10-26",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-79234a0f63690e27f628",
+      "sourceTitle": "Kerékpárregisztráció Abonyban",
+      "sourceDate": "2026-10-26",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-6d05da33f47e3f20901a",
+      "sourceTitle": "Gyereknap az őszi szünetben",
+      "sourceDate": "2026-10-26",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-35526783ac9812f68701",
+      "sourceTitle": "Vágányzár Információ – 2026. november 4. és december 1. között",
+      "sourceDate": "2026-10-26",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-2a4e235167f3b5d0394a",
+      "sourceTitle": "Meghívó – összevont bizottsági ülés",
+      "sourceDate": "2026-10-26",
+      "decision": "exclude",
+      "reason": "Az egyszeri esemény vagy tájékoztatás már elmúlt, illetve a címben szereplő régi évszám ellentmond a friss megjelenésnek."
+    },
+    {
+      "id": "hir-653d2d94b268d45fce55",
+      "sourceTitle": "Elkészült a Pilisi Bioszféra Rezervátum bemutatkozó kiadványa",
+      "sourceDate": "2026-10-26",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-0ba2520c925d331fe7d3",
+      "sourceTitle": "Figyelem, áramszünet lesz 2026.11.03.",
+      "sourceDate": "2026-10-26",
+      "decision": "review",
+      "reason": "A lényegi részletek csatolmányban vagy képen vannak; ezek nélkül nem került az aktív ajánlatok közé."
+    },
+    {
+      "id": "hir-7d1142c9ed941ccf2ff4",
+      "sourceTitle": "Figyelem, áramszünet lesz 2026.11.02.",
+      "sourceDate": "2026-10-26",
+      "decision": "review",
+      "reason": "A lényegi részletek csatolmányban vagy képen vannak; ezek nélkül nem került az aktív ajánlatok közé."
+    },
+    {
+      "id": "hir-9fa7bc58fbab4d3a4611",
+      "sourceTitle": "Közmeghallgatás 2026.",
+      "sourceDate": "2026-10-26",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-50576c191a605cce6b48",
+      "sourceTitle": "Egymásra hangolódva – Gyerekjóga Gyálon",
+      "sourceDate": "2026-10-26",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-69f99ee18755c278cfa0",
+      "sourceTitle": "Kertész-karbantartó munkatársat keres a péceli Napsugár bölcsőde",
+      "sourceDate": "2026-10-26",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-f642f5bbbe39eaf323da",
+      "sourceTitle": "Ha csak egyetlen nő hamarabb elmegy szűrésre, már megérte",
+      "sourceDate": "2026-10-26",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-01033f8960e0924a213c",
+      "sourceTitle": "Az ősz feladata, hogy továbbvigyük a megkezdett munkát",
+      "sourceDate": "2026-10-26",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-29cd3bb627819ff2fe56",
+      "sourceTitle": "Csobánkai Villámpiac",
+      "sourceDate": "2026-10-26",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-a5c906561d0992567233",
+      "sourceTitle": "Meghosszabbított temetői nyitvatartás",
+      "sourceDate": "2026-10-26",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-3b1f101eb09440b6cd5f",
+      "sourceTitle": "Meghívó – Képviselő-testületi ülés",
+      "sourceDate": "2026-10-26",
+      "decision": "exclude",
+      "reason": "Az egyszeri esemény vagy tájékoztatás már elmúlt, illetve a címben szereplő régi évszám ellentmond a friss megjelenésnek."
+    },
+    {
+      "id": "hir-1e14399d2d46e420992b",
+      "sourceTitle": "Már igényelhető az ingyenes önkormányzati szociális tűzifa",
+      "sourceDate": "2026-10-26",
+      "decision": "include",
+      "reason": "Aktuális helyi támogatási lehetőség a fűtési szezonban.",
+      "category": "szocialis",
+      "excerpt": "Pécelen már igényelhető az önkormányzat szociális tűzifa-támogatása. A program egy fűtési szezonban egyszer, legfeljebb egy köbméter tűzifával segítheti a jogosult háztartásokat."
+    },
+    {
+      "id": "hir-8c55832834d21690b739",
+      "sourceTitle": "Álláspályázat – adóügyi ügyintéző",
+      "sourceDate": "2026-10-26",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-72c4ae7662815180db00",
+      "sourceTitle": "Gyermekfogorvos szabadság – Dr. Török Jolán",
+      "sourceDate": "2026-10-26",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-8c2e1efba028bbd1ed9c",
+      "sourceTitle": "Dr. Varga Ágnes 1. háziorvosi körzet helyettesítési rend változás 2026. október 29-30-án",
+      "sourceDate": "2026-10-26",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-88c859af3f3c89eb07d6",
+      "sourceTitle": "Heti étlapok",
+      "sourceDate": "2026-10-26",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-8ff67d0ef2b9ae3e5828",
+      "sourceTitle": "Pályaépítési munkák",
+      "sourceDate": "2026-10-26",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-886d98ee763bb0fd9eec",
+      "sourceTitle": "Új trafiboxok vigyáznak a közlekedőkre Vecsésen",
+      "sourceDate": "2026-10-25",
+      "decision": "include",
+      "reason": "Új sebességmérő helyszínek és gyalogosbiztonsági fejlesztés.",
+      "category": "kozbiztonsag",
+      "excerpt": "Vecsésen négy új trafibox kihelyezését jelentették be. A fejlesztés több forgalmas utcát érint, és a Besztercei utcában új gyalogátkelőhely is készül."
+    },
+    {
+      "id": "hir-df4b75aba7203300e96c",
+      "sourceTitle": "Megtekintésre ajánlott tartalmak",
+      "sourceDate": "2026-10-25",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-3e67da03e0d2df0af4f6",
+      "sourceTitle": "Megemlékezés és koszorúzás az 1956-os forradalom és szabadságharc 70. évfordulóján",
+      "sourceDate": "2026-10-25",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-f84ccb4e12cc9da76773",
+      "sourceTitle": "Hirdetések – 2026. Október 25 – November 1-ig",
+      "sourceDate": "2026-10-24",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-6382309a596e402c673d",
+      "sourceTitle": "Meghívó – Képviselő-testületi ülés",
+      "sourceDate": "2026-10-24",
+      "decision": "exclude",
+      "reason": "Az egyszeri esemény vagy tájékoztatás már elmúlt, illetve a címben szereplő régi évszám ellentmond a friss megjelenésnek."
+    },
+    {
+      "id": "hir-53187f82e34046ba5d55",
+      "sourceTitle": "Dr. Bernscherer György háziorvos szabadsága",
+      "sourceDate": "2026-10-24",
+      "decision": "exclude",
+      "reason": "Az egyszeri esemény vagy tájékoztatás már elmúlt, illetve a címben szereplő régi évszám ellentmond a friss megjelenésnek."
+    },
+    {
+      "id": "hir-0c7e434e5f280d25e487",
+      "sourceTitle": "Tájékoztatás csőtörésről – helyreáll a vízszolgáltatás",
+      "sourceDate": "2026-10-24",
+      "decision": "exclude",
+      "reason": "Az egyszeri esemény vagy tájékoztatás már elmúlt, illetve a címben szereplő régi évszám ellentmond a friss megjelenésnek."
+    },
+    {
+      "id": "hir-f8693d40e835946cdea7",
+      "sourceTitle": "Október 25-én kezdődik a téli időszámítás – egy órával többet alhatunk",
+      "sourceDate": "2026-10-24",
+      "decision": "exclude",
+      "reason": "Az egyszeri esemény vagy tájékoztatás már elmúlt, illetve a címben szereplő régi évszám ellentmond a friss megjelenésnek."
+    },
+    {
+      "id": "hir-61fbb0524346275fde99",
+      "sourceTitle": "Önkormányzati autonómia jövője",
+      "sourceDate": "2026-10-24",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-4693894691563998559a",
+      "sourceTitle": "Öregfiúk mérkőzés",
+      "sourceDate": "2026-10-24",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-445a1ddd9c93913579d8",
+      "sourceTitle": "Fogadóóra- Tóthné Somodi Ildikó és Czagány Zsolt",
+      "sourceDate": "2026-10-24",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-3dd445edd5d7795918be",
+      "sourceTitle": "Majosháza Község Hivatalos Honlapja",
+      "sourceDate": "2026-10-24",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-eaba888e91888fd2ae49",
+      "sourceTitle": "Majosháza Község Hivatalos Honlapja",
+      "sourceDate": "2026-10-24",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-19675b5f874efe061e09",
+      "sourceTitle": "Majosháza Község Hivatalos Honlapja",
+      "sourceDate": "2026-10-24",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-20e41fdcc3b3d9fbc76b",
+      "sourceTitle": "Meghívó a Képviselő-testület 2026. október 27-i rendkívüli ülésére",
+      "sourceDate": "2026-10-23",
+      "decision": "exclude",
+      "reason": "Az egyszeri esemény vagy tájékoztatás már elmúlt, illetve a címben szereplő régi évszám ellentmond a friss megjelenésnek."
+    },
+    {
+      "id": "hir-8584c86b7262ea0680fe",
+      "sourceTitle": "Ma van az 1956-os forradalom és szabadságharc 70. évfordulója",
+      "sourceDate": "2026-10-23",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-b39699e6d310adc7fe8d",
+      "sourceTitle": "Az 1956-os hősökre emlékezett Gyál",
+      "sourceDate": "2026-10-23",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-8b35c2f3fb7e12b23cd4",
+      "sourceTitle": "Megújul a vecsési Andrássy iskola",
+      "sourceDate": "2026-10-23",
+      "decision": "include",
+      "reason": "Jelentős, már megkezdett helyi iskolafejlesztés.",
+      "category": "oktatas",
+      "excerpt": "Megkezdődött a vecsési Andrássy Gyula Általános Iskola felújítása. A 385,5 millió forintos támogatásból épületkorszerűsítés, új közösségi terek és eszközbeszerzés is megvalósul."
+    },
+    {
+      "id": "hir-ec3e86f11004401b988b",
+      "sourceTitle": "Kisberk Szabolcs: a hazugságra, elnyomásra és a valóság eltagadására épített rendszerek nem lehetnek hosszútávon működőképesek",
+      "sourceDate": "2026-10-23",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-f9a3008412467edb75ee",
+      "sourceTitle": "Árverési Hírdetmény",
+      "sourceDate": "2026-10-23",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-03abc0db9c9737c71295",
+      "sourceTitle": "Képviselő testületi meghívó 2022.01.28",
+      "sourceDate": "2026-10-23",
+      "decision": "exclude",
+      "reason": "Az egyszeri esemény vagy tájékoztatás már elmúlt, illetve a címben szereplő régi évszám ellentmond a friss megjelenésnek."
+    },
+    {
+      "id": "hir-37da99aa1cf38327f680",
+      "sourceTitle": "Együtt tettük szebbé a káptalanfüredi tábort",
+      "sourceDate": "2026-10-23",
+      "decision": "review",
+      "reason": "A cím és a rendelkezésre álló tartalom alapján további forrásellenőrzés szükséges; nem került automatikusan az aktívba."
+    },
+    {
+      "id": "hir-38bd0ff5362d3e34e0d6",
+      "sourceTitle": "⏰ Vasárnap óraátállítás!",
+      "sourceDate": "2026-10-23",
+      "decision": "exclude",
+      "reason": "Az egyszeri esemény vagy tájékoztatás már elmúlt, illetve a címben szereplő régi évszám ellentmond a friss megjelenésnek."
+    },
+    {
+      "id": "hir-98bdd6d8fd7e24f8f501",
+      "sourceTitle": "Az 1956-os forradalom és szabadságharc hőseinek emlékére!",
+      "sourceDate": "2026-10-23",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    },
+    {
+      "id": "hir-854164bddfc3de41d881",
+      "sourceTitle": "Képviselő-testületi Meghívó",
+      "sourceDate": "2026-10-23",
+      "decision": "exclude",
+      "reason": "Rutin meghívó, program-, ügyviteli vagy általános tájékoztató; önálló aktuális helyi hírként nem választottam ki."
+    }
+  ]
+}

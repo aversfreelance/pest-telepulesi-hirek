@@ -1,20 +1,15 @@
-# Aktív és felhasznált hírlista
+# Reggeli szerkesztői feladat
 
-Az összehasonlításnak pontosan két állomány az alapja:
+A GitHub gyűjt; az asszisztens a hírértéket értékeli és az aktív listát bővíti. Kövesd az alábbi aktuális működést; a korábbi review/decisions.json és review/pmonline-actions.json csak régi próbaanyag.
 
-- public/active.json: még feldolgozásra váró hírek; ez a PM Online állandó importcíme.
-- public/used.json: már felhasznált/lezárt hírek emlékezete. A törölt/elutasított tételek is itt maradjanak, ha nem szabad újra felajánlani őket.
+1. Frissítsd biztonságosan az aversfreelance/pest-telepulesi-hirek checkoutot. Olvasd a public/news.json, public/active.json, public/used.json és a friss gyűjtési státusz fájlt. Hiányzó vagy hibás előzményt ne tekints üresnek.
+2. Az első feldolgozás hét napot tekint át, a data/editorial-state.json bootstrapCompletedAt jelölése után csak a magyar helyi napon megjelent új hírek következnek. A nyers gyűjtő külön data/collection-state.json jelöléssel kezeli a saját egyszeri hétnapos indulását.
+3. Először szűrd az aktív/kezelt listában már ismert id-t vagy megtisztított teljes hír-URL-t. A PM Online cikkeit, cikk-API-ját és archívumát ne kérd le; a felhasználó kizárólag e két fájllal kéri az összevetést.
+4. Olvasd el az új jelölt saját szövegét; a menü, a kapcsolódó cikk, a lábléc vagy a honlap általános bemutatkozása nem hír. Ha csak képen/csatolmányban vannak a lényegi részletek, ellenőrizd azokat is, vagy jelöld review állapottal. Dátumellentmondásnál ne állíts friss hírt.
+5. Hírérték: konkrét új helyi információ, érdemi lakossági hatás, aktualitás. Fejlesztés, közlekedési változás, ellátási kérdés, fontos döntés, helyi eredmény, rendkívüli esemény és valódi közösségi kezdeményezés ajánlható. Rutin fogadóóra, sablonköszöntés, reklám, személyes hirdetmény és lejárt egyszeri értesítés általában kimarad. Pusztán a közlemény, pályázat, hirdetmény szó alapján ne zárj ki semmit.
+6. A review/newsworthiness.json version=1 döntéslistájában minden új jelölt id-jához rögzíts sourceTitle, sourceDate, decision (include/exclude/review), reason, category és az include tételeknél saját rövid excerpt mezőt. Az excerpt rövid szerkesztői összefoglaló legyen, ne teljes cikkmásolat. A név szerint azonos települési híreket először együtt vizsgáld; az egyértelműen azonos térségi eseményt ne ajánld több forrásból. Hasonló cím önmagában nem elég az azonossághoz. Érdemi új fejlemény külön ajánlható.
+7. Futtasd a python prepare_daily.py ellenőrzést. Csak az érvényes include értékelésű, aktív/kezelt listában nem szereplő jelöltek kerülnek az active.json-ba. Az aktív korábbi függő hírek másnap is megmaradnak. Ne írj a used.json fájlba: azt a PM Online kezeli.
+8. A kezelt fájl preparing, used és discarded állapota egyaránt kizárja az újbóli felajánlást. A preparing egy megszakadt piszkozat-átvétel, amit a PM Online felületéről lehet folytatni. Teljes forráscikket, hitelesítési adatot, belső cikket és személyes adatot ne tegyél a nyilvános GitHub-állapotba.
+9. Csak a saját értékelési/aktív/napi/státusz fájljaidat töltsd fel. Közben változhat az aktív/kezelt állapot: ütközéskor olvasd a legfrissebb távoli fájlokat, és azokból futtasd újra az összevetést. Ne kényszeríts felülírást és ne egyesíts vakon JSON-listákat, mert visszahozhatná a már kukázott híreket.
 
-Nem kell és nem szabad lekérni a PM Online megjelent cikkeit, API-ját vagy archívumát a duplikációszűréshez. A régi review/pmonline-actions.json és review/decisions.json nem az aktuális összevetés alapja.
-
-## Frissítés
-
-1. Frissítsd biztonságosan az aversfreelance/pest-telepulesi-hirek checkoutot a main ágról. A gyűjtést a GitHub végzi; ne indíts új települési gyűjtést.
-2. Olvasd a public/news.json találatait és a legfrissebb aktív és felhasznált fájlt. Hiányzó vagy hibás állapotnál állj meg; ne kezeld üres előzményként.
-3. Futtasd a python prepare_daily.py parancsot. A magyar helyi napon megjelent találatokat állandó id és követőkódoktól megtisztított teljes hír-URL alapján ellenőrzi mindkét listában. Ami egyikben sincs, az aktívhoz adódik. A korábbi függő aktív tételek másnap is megmaradnak. Ha mindkét listában szerepel valami, a felhasznált állapot elsőbbséget kap.
-4. A public/import/pmonline-daily.json az adott futás új tételeit tartalmazza. A public/daily/YYYY-MM-DD.json az aznapi legutóbbi futás új tételei, nem változtathatatlan teljes napi archívum. Az állandó teljes munkalista az active.json.
-5. Ellenőrzés után csak a saját aktív/napi/státusz változásaidat töltsd fel. Ha a távoli aktív vagy felhasznált lista közben változott, frissíts és futtasd újra az összevetést; soha ne kényszeríts felülírást. A program a felhasznált fájlt nem módosítja.
-
-A kiválasztás/felhasználás és az elutasítás/törlés a PM Online-ban történik. Feldolgozáskor a rekord kerüljön át az aktívból a felhasználtba. A törlés ne törölje a hír azonosítóját az emlékezetből, mert akkor visszakerülhetne. Az állapotátvitel visszakötése a PM Online-ból még nincs kész; ne állítsd működőnek, és ne találj ki felhasználói döntéseket. A két új fájl induláskor üres; a korábbi szerkesztői próbadöntések nem felhasználói döntések.
-
-Ne szűrj ki hírt pusztán hírérték vagy címhasonlóság alapján; a végső kiválasztást a felhasználó végzi. Ne publikálj teljes cikket vagy belső tartalmat, ne írj a PM Online adatbázisába, és ne vezess be fizetős szolgáltatást. A GitHub-gyűjtő workflow-jogosultsági akadálya továbbra is külön feladat. Üres napi lista hiányos gyűjtés mellett nem bizonyít hírmentes napot.
+Ne indíts települési gyűjtést, ne írj közvetlenül a PM Online adatbázisába és ne publikálj cikket. Ne vezess be fizetős AI API-t. A GitHub-ütemezés engedélyezése és a PM Online szerveroldali GitHub-kapcsolata még külön beállítás; ne állítsd késznek ellenőrzés nélkül. A gépnek és az alkalmazásnak futnia kell az időzített helyi értékeléshez. Változatlan adatoknál maradj csendben; érdemi új ajánlásról, hibáról vagy szükséges lépésről értesíts magyarul.

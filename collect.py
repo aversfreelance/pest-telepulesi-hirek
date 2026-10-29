@@ -4,10 +4,12 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 import hashlib
+import html
 import json
 from pathlib import Path
 import re
 from time import monotonic, sleep
+from zoneinfo import ZoneInfo
 from urllib.parse import urljoin, urlsplit, urlunsplit, parse_qsl, urlencode
 from urllib.request import Request, urlopen
 import xml.etree.ElementTree as ET
@@ -18,6 +20,8 @@ from dateutil.parser import isoparse
 ROOT = Path(__file__).resolve().parent
 OUTPUT = ROOT / 'public/news.json'
 STATUS = ROOT / 'public/status.json'
+COLLECTION_STATE = ROOT / 'data/collection-state.json'
+WINDOW_DAYS = 7
 HEADERS = {'User-Agent': 'PestTelepulesiHirek/1.0 (public municipal news metadata)'}
 MONTHS = ['január', 'február', 'március', 'április', 'május', 'június',
           'július', 'augusztus', 'szeptember', 'október', 'november', 'december']
@@ -52,6 +56,8 @@ def publication(value):
     match = re.search(r'\d{4}-\d{2}-\d{2}(?:[T ]\d{2}:\d{2}(?::\d{2}(?:\.\d+)?)?(?:Z|[+-]\d{2}:?\d{2})?)?', value)
     try:
         parsed = isoparse(match[0]) if match else parsedate_to_datetime(value)
+        if parsed.tzinfo:
+            parsed = parsed.astimezone(ZoneInfo('Europe/Budapest'))
         return parsed.date().isoformat(), parsed.strftime('%H:%M') if re.search(r'\d{2}:\d{2}', value) else None
     except (ValueError, TypeError, OverflowError):
         return None, None
@@ -116,8 +122,8 @@ def article_record(source, url, raw, hint=None):
     # Undated pages cannot be reliably classified as fresh news.
     if not date:
         return None
-    today = datetime.now(timezone.utc).date()
-    if not today - timedelta(days=31) <= datetime.fromisoformat(date).date() <= today:
+    today = datetime.now(ZoneInfo('Europe/Budapest')).date()
+    if not today - timedelta(days=WINDOW_DAYS - 1) <= datetime.fromisoformat(date).date() <= today:
         return None
     image = image_url(data.get('image'), url) or image_url(meta('og:image'), url)
     if not image:
@@ -125,10 +131,13 @@ def article_record(source, url, raw, hint=None):
         if node:
             image = image_url(node.get('data-src') or node.get('src'), url)
     url = canonical(url)
+    excerpt = data.get('description') or meta('og:description', 'description') or ''
+    excerpt = BeautifulSoup(str(excerpt), 'html.parser').get_text(' ', strip=True)[:500]
     return {'id': 'hir-' + hashlib.sha256((source['location'] + '|' + url).encode()).hexdigest()[:20],
             'location': source['location'], 'sourceName': source['sourceName'],
-            'sourceUrl': url, 'url': url, 'title': re.sub(r'\s+', ' ', title).strip(),
-            'date': date, 'time': time, 'image': image, 'hasImage': bool(image)}
+            'sourceUrl': url, 'url': url, 'title': html.unescape(re.sub(r'\s+', ' ', title).strip()),
+            'date': date, 'time': time, 'image': image, 'hasImage': bool(image),
+            'excerpt': excerpt, 'collectedAt': datetime.now(timezone.utc).isoformat()}
 
 
 def feed_candidates(raw, base):
@@ -214,9 +223,15 @@ def write_json(path, value):
 
 
 def main():
+    global WINDOW_DAYS
     parser = argparse.ArgumentParser()
     parser.add_argument('--limit', type=int)
+    parser.add_argument('--days', type=int, help='Override collection window for a manual recovery')
     args = parser.parse_args()
+    state = json.loads(COLLECTION_STATE.read_text(encoding='utf-8')) if COLLECTION_STATE.exists() else {}
+    WINDOW_DAYS = args.days or (1 if state.get('bootstrappedAt') else 7)
+    if not 1 <= WINDOW_DAYS <= 31:
+        parser.error('--days must be between 1 and 31')
     sources = json.loads((ROOT / 'sources.json').read_text(encoding='utf-8'))
     if args.limit:
         sources = sources[:args.limit]
@@ -241,10 +256,18 @@ def main():
         write_json(OUTPUT, merge_records(old, fresh))
     write_json(STATUS, {'checkedAt': datetime.now(timezone.utc).isoformat(),
                         'complete': True, 'checkedSources': len(statuses),
+                        'windowDays': WINDOW_DAYS,
                         'sourceCount': len(sources), 'freshRecords': len(fresh),
                         'sources': sorted(statuses, key=lambda row: row['location'])})
     if not fresh:
-        raise SystemExit('No dated news collected; existing feed preserved. See public/status.json.')
+        if all(row['state'] == 'error' for row in statuses):
+            raise SystemExit('All sources failed; existing feed preserved. See public/status.json.')
+        print('No recent dated news extracted; existing feed preserved. Coverage requires status review.')
+        return
+    if not args.limit:
+        state['bootstrappedAt'] = state.get('bootstrappedAt') or datetime.now(timezone.utc).isoformat()
+        state['lastRunAt'] = datetime.now(timezone.utc).isoformat()
+        write_json(COLLECTION_STATE, state)
 
 
 if __name__ == '__main__':
