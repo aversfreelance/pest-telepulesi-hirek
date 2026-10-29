@@ -91,6 +91,8 @@ def main():
     used = json.loads(used_path.read_text(encoding='utf-8'))
     merged, added = merge_active(accepted, active, used, day, days)
     write_json(active_path, merged)
+    from export_import import export_files
+    export_files()
     write_json(ROOT / 'public/import/pmonline-daily.json', added)
     write_json(ROOT / f'public/daily/{day}.json', added)
     write_json(ROOT / 'public/daily-by-settlement.json', group_by_settlement(added))
