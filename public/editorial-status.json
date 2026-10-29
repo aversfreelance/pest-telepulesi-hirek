@@ -1,0 +1,10 @@
+{
+  "reviewedAt": "2026-10-29T17:07:42.965942+00:00",
+  "inputCount": 10,
+  "selected": 2,
+  "reviewRequired": 3,
+  "excluded": 5,
+  "comparisonSource": "https://www.pmonline.hu/api/articles-summaries",
+  "comparisonCheckedAt": "2026-10-29T17:07:31.377122+00:00",
+  "comparisonLimitations": "A nyilvánosan elérhető legutóbbi 1000 rekord címe és bevezetője alapján. A teljes belső piszkozatállomány és régebbi archívum ellenőrzése nem igazolt. Első, 10 rekordos próba."
+}

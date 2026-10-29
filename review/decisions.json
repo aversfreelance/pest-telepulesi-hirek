@@ -1,0 +1,77 @@
+{
+  "comparisonCheckedAt": "2026-10-29T17:07:31.377122+00:00",
+  "comparisonSource": "https://www.pmonline.hu/api/articles-summaries",
+  "comparisonLimitations": "A nyilvánosan elérhető legutóbbi 1000 rekord címe és bevezetője alapján. A teljes belső piszkozatállomány és régebbi archívum ellenőrzése nem igazolt. Első, 10 rekordos próba.",
+  "decisions": [
+    {
+      "id": "hir-e88281a10d0aefb1ba66",
+      "sourceTitle": "Pótlólagos ösztöndíjpályázat középiskolás, 2–4. évfolyamos diákok részére",
+      "sourceDate": "2026-10-27",
+      "status": "include",
+      "reason": "Aktuális helyi ösztöndíj-lehetőség november 9-i határidővel; az ellenőrzött PM Online-cikklistában nem találtam azonos témát."
+    },
+    {
+      "id": "hir-a6daa718e605ae447a6d",
+      "sourceTitle": "Tájékoztatás védőzóna kiterjesztéséről",
+      "sourceDate": "2026-10-26",
+      "status": "include",
+      "reason": "Új növényegészségügyi védőzóna érinti Albertirsát és a szőlőtulajdonosokat; az ellenőrzött cikklistában nem találtam azonos témát."
+    },
+    {
+      "id": "hir-0ba2520c925d331fe7d3",
+      "sourceTitle": "Figyelem, áramszünet lesz 2026.11.03.",
+      "sourceDate": "2026-10-26",
+      "status": "review",
+      "reason": "Az áramszünet részletei képen vannak; a helyszín és időtartam tartalmi ellenőrzése szükséges."
+    },
+    {
+      "id": "hir-7d1142c9ed941ccf2ff4",
+      "sourceTitle": "Figyelem, áramszünet lesz 2026.11.02.",
+      "sourceDate": "2026-10-26",
+      "status": "review",
+      "reason": "Az áramszünet részletei képen vannak; a helyszín és időtartam tartalmi ellenőrzése szükséges."
+    },
+    {
+      "id": "hir-18a0b9e37b6ffd45d6c8",
+      "sourceTitle": "🏠Főépítész Asszony fogadóórája 2026.11.03.",
+      "sourceDate": "2026-10-22",
+      "status": "exclude",
+      "reason": "Rutin főépítészi fogadóóra; önmagában nem éri el a szerkesztői hírküszöböt."
+    },
+    {
+      "id": "hir-174a18eb4f7c22aedbf6",
+      "sourceTitle": "TÁJÉKOZTATÁS &#8211; 2026. október 22. (csütörtök) megkezdődik az elmaradt szelektív hulladék elszállítása",
+      "sourceDate": "2026-10-22",
+      "status": "exclude",
+      "reason": "Október 22-i egyszeri hulladékpótlás; az első válogatás napjára aktualitását vesztette."
+    },
+    {
+      "id": "hir-7d3fc3da0b031e8177c9",
+      "sourceTitle": "Figyelem, áramszünet lesz 2026.10.30.❗️",
+      "sourceDate": "2026-10-22",
+      "status": "review",
+      "reason": "Másnapi áramszünet, de a lényegi részleteket tartalmazó kép ellenőrzése még szükséges."
+    },
+    {
+      "id": "hir-f9ee5a735cbf6d2b4922",
+      "sourceTitle": "ORTOPÉDIAI SZAKRENDELÉS &#8211; SZABADSÁG",
+      "sourceDate": "2026-10-22",
+      "status": "exclude",
+      "reason": "A kimaradó ortopédiai rendelés már elmúlt; rutin rendelési tájékoztató."
+    },
+    {
+      "id": "hir-3905b3d0601279d0f612",
+      "sourceTitle": "Figyelem, áramszünet lesz 2026.10.29.❗️",
+      "sourceDate": "2026-10-22",
+      "status": "exclude",
+      "reason": "Mai áramszünet; a hátralévő aktualitás és részletek nem igazoltak."
+    },
+    {
+      "id": "hir-f483d20ae3ecfe3b98a7",
+      "sourceTitle": "SEBÉSZETI SZAKRENDELÉS &#8211; SZABADSÁG",
+      "sourceDate": "2026-10-21",
+      "status": "exclude",
+      "reason": "Egyetlen sebészeti rendelési nap rutinszerű szüneteltetése; önálló hírként nem választottam ki."
+    }
+  ]
+}
