@@ -1,17 +1,35 @@
 import unittest
-from prepare_daily import daily_queue
+from prepare_daily import merge_active
 
 
-class DailyQueueTests(unittest.TestCase):
-    def test_publication_day_and_pmonline_actions(self):
-        rows = [{'id': name, 'date': day, 'location': 'Érd'} for name, day in
-                [('new', '2026-10-29'), ('picked', '2026-10-29'),
-                 ('deleted', '2026-10-29'), ('old', '2026-10-28')]]
-        actions = {'version': 1, 'selectedIds': ['picked'], 'deletedIds': ['deleted']}
-        result = daily_queue(rows + [rows[0]], actions, '2026-10-29')
-        self.assertEqual([row['id'] for row in result], ['new'])
-        self.assertEqual(len(rows), 4)
+def row(id, day='2026-10-29', url=None):
+    return {'id': id, 'date': day, 'location': 'Érd', 'url': url or 'https://a.hu/' + id}
 
-    def test_bad_state_does_not_silently_reintroduce_deleted_items(self):
+
+class ActiveQueueTests(unittest.TestCase):
+    def test_only_unseen_today_items_added_and_old_pending_survives(self):
+        active = [row('pending', '2026-10-28')]
+        used = [row('used')]
+        inputs = [row('new'), row('new'), row('pending'), row('used'), row('yesterday', '2026-10-28')]
+        merged, added = merge_active(inputs, active, used, '2026-10-29')
+        self.assertEqual({x['id'] for x in merged}, {'pending', 'new'})
+        self.assertEqual([x['id'] for x in added], ['new'])
+        again, additions = merge_active(inputs, merged, used, '2026-10-29')
+        self.assertEqual(again, merged)
+        self.assertEqual(additions, [])
+        self.assertEqual(len(active), 1)
+        self.assertEqual(len(used), 1)
+
+    def test_used_wins_and_tracking_url_cannot_reintroduce_item(self):
+        used = [row('used', url='https://a.hu/cikk?id=42')]
+        inputs = [row('different-id', url='https://a.hu/cikk?id=42&utm_source=x#top'),
+                  row('different-article', url='https://a.hu/cikk?id=43')]
+        merged, added = merge_active(inputs, [row('used')], used, '2026-10-29')
+        self.assertEqual([x['id'] for x in merged], ['different-article'])
+        self.assertEqual(merged, added)
+
+    def test_invalid_history_fails_instead_of_resetting_it(self):
         with self.assertRaises(ValueError):
-            daily_queue([], {'version': 1, 'selectedIds': [], 'deletedIds': 'bad'}, '2026-10-29')
+            merge_active([], [], {}, '2026-10-29')
+        with self.assertRaises(ValueError):
+            merge_active([], [], [{}], '2026-10-29')

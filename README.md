@@ -1,6 +1,16 @@
 # Pest vármegye települési hírlistája
 
-## Új napi import és kézi kiválasztás
+## Aktuális működés: aktív és felhasznált
+
+A PM Online állandó importcíme: `public/active.json`. A feldolgozott vagy elutasított hírek nyilvántartása: `public/used.json`. Mindkettő egyszerű JSON-lista a hírmetaadatokkal és az állandó azonosítóval.
+
+A `python prepare_daily.py` a magyar helyi napon megjelent új találatot csak akkor adja az aktívhoz, ha az id-ja és a megtisztított hír-URL-je egyik listában sem szerepel. A függő aktív hírek másnap is megmaradnak. Az összehasonlítás nem olvassa a PM Online cikkeit. A felhasznált listát a gyűjtő nem írja át.
+
+Felhasználáskor vagy végleges elutasításkor a PM Online-nak át kell mozgatnia a rekordot az aktívból a felhasználtba. Ennek visszakötése még nincs kész. A `public/import/pmonline-daily.json` csak az adott futásban hozzáadott új tételek listája. Az induló két állomány üres; a mai próba nem tartalmaz mai megjelenésű hírt.
+
+## Korábbi megoldások – az aktuális munkamenethez az active.json használandó
+
+### Korábbi napi import és kézi kiválasztás
 
 A jelenlegi javasolt PM Online-bemenet: `public/import/pmonline-daily.json`. Egyszerű JSON-lista, a magyar helyi napon megjelent, még nem kiválasztott és nem törölt hírekkel. A napi archív fájl `public/daily/YYYY-MM-DD.json`, a döntések külön `review/pmonline-actions.json` fájlba kerülnek. Előkészítés: `python prepare_daily.py`.
 

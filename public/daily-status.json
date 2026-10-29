@@ -1,10 +1,14 @@
 {
   "day": "2026-10-29",
   "timezone": "Europe/Budapest",
-  "preparedAt": "2026-10-29T18:12:43.906822+01:00",
+  "preparedAt": "2026-10-29T18:14:54.087207+01:00",
   "items": 0,
-  "actionsUpdatedAt": null,
-  "actionsConnected": false,
+  "activeItems": 0,
+  "usedItems": 0,
+  "comparisonFiles": [
+    "public/active.json",
+    "public/used.json"
+  ],
   "collectionCheckedAt": null,
   "collectionComplete": false,
   "latestInputPublicationDate": "2026-10-27"
