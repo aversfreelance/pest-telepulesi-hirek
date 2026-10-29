@@ -1,8 +1,27 @@
 """Validate editorial decisions and publish metadata-only import lists."""
 import html
 import json
+import unicodedata
 from datetime import datetime, timezone
 from collect import ROOT, write_json
+
+
+def settlement_key(value):
+    return ' '.join(unicodedata.normalize('NFC', value or '').casefold().split())
+
+
+def group_by_settlement(records):
+    groups = {}
+    for record in records:
+        name = ' '.join(unicodedata.normalize('NFC', record.get('location') or '').split())
+        key = settlement_key(name)
+        if not key:
+            name, key = 'Ismeretlen település', '__unknown__'
+        group = groups.setdefault(key, {'location': name, 'news': []})
+        group['news'].append(record)
+    for group in groups.values():
+        group['news'].sort(key=lambda row: (row.get('date') or '', row.get('time') or '', row['id']), reverse=True)
+    return [groups[key] for key in sorted(groups)]
 
 
 def main():
@@ -30,7 +49,12 @@ def main():
             selected.append(record)
         elif decision['status'] == 'review':
             pending.append({**record, 'reviewReason': decision['reason']})
+    selected_groups = group_by_settlement(selected)
+    selected = [row for group in selected_groups for row in group['news']]
     write_json(ROOT / 'public/import/pmonline-news.json', selected)
+    write_json(ROOT / 'public/import/pmonline-news-by-settlement.json', selected_groups)
+    write_json(ROOT / 'public/news-by-settlement.json', group_by_settlement(source))
+    write_json(ROOT / 'public/review-required-by-settlement.json', group_by_settlement(pending))
     write_json(ROOT / 'public/review-required.json', pending)
     write_json(ROOT / 'public/editorial-status.json', {
         'reviewedAt': datetime.now(timezone.utc).isoformat(), 'inputCount': len(source),
