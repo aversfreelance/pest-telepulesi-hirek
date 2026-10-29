@@ -1,0 +1,872 @@
+[
+  {
+    "location": "Abony",
+    "sourceName": "Abony – önkormányzati honlap",
+    "url": "https://abony.hu/hirek"
+  },
+  {
+    "location": "Acsa",
+    "sourceName": "Acsa – önkormányzati honlap",
+    "url": "https://www.acsa.hu/?megjelenites=hirkategoriak"
+  },
+  {
+    "location": "Albertirsa",
+    "sourceName": "Albertirsa – önkormányzati honlap",
+    "url": "https://albertirsa.hu/hirek/"
+  },
+  {
+    "location": "Alsónémedi",
+    "sourceName": "Alsónémedi – önkormányzati honlap",
+    "url": "https://www.alsonemedi.hu/hirek"
+  },
+  {
+    "location": "Apaj",
+    "sourceName": "Apaj – önkormányzati honlap",
+    "url": "https://apaj.hu/h--rek--beszamolok"
+  },
+  {
+    "location": "Áporka",
+    "sourceName": "Áporka – önkormányzati honlap",
+    "url": "https://www.aporka.hu/kiemelt-kozlemenyek-hirek.html?limitstart=0"
+  },
+  {
+    "location": "Aszód",
+    "sourceName": "Aszód – önkormányzati honlap",
+    "url": "https://aszod.hu/hirek/"
+  },
+  {
+    "location": "Bag",
+    "sourceName": "Bag – önkormányzati honlap",
+    "url": "https://www.bagfalu.hu/"
+  },
+  {
+    "location": "Bénye",
+    "sourceName": "Bénye – önkormányzati honlap",
+    "url": "https://benye.hu/"
+  },
+  {
+    "location": "Biatorbágy",
+    "sourceName": "Biatorbágy – önkormányzati honlap",
+    "url": "https://biatorbagy.hu/"
+  },
+  {
+    "location": "Budajenő",
+    "sourceName": "Budajenő – önkormányzati honlap",
+    "url": "https://budajeno.hu/"
+  },
+  {
+    "location": "Budakalász",
+    "sourceName": "Budakalász – önkormányzati honlap",
+    "url": "https://www.budakalasz.hu/varosunk/hirek/"
+  },
+  {
+    "location": "Budakeszi",
+    "sourceName": "Budakeszi – önkormányzati honlap",
+    "url": "https://varoshaza.budakeszi.hu/"
+  },
+  {
+    "location": "Budaörs",
+    "sourceName": "Budaörs – önkormányzati honlap",
+    "url": "https://budaors.hu/hirek"
+  },
+  {
+    "location": "Bugyi",
+    "sourceName": "Bugyi – önkormányzati honlap",
+    "url": "https://bugyi.hu/"
+  },
+  {
+    "location": "Cegléd",
+    "sourceName": "Cegléd – önkormányzati honlap",
+    "url": "https://cegled.hu/"
+  },
+  {
+    "location": "Csemő",
+    "sourceName": "Csemő – önkormányzati honlap",
+    "url": "https://csemo.hu/"
+  },
+  {
+    "location": "Csévharaszt",
+    "sourceName": "Csévharaszt – önkormányzati honlap",
+    "url": "https://www.csevharaszt.hu/hirek/helyi_hirek"
+  },
+  {
+    "location": "Csobánka",
+    "sourceName": "Csobánka – önkormányzati honlap",
+    "url": "https://csobanka.hu/category/hirek/"
+  },
+  {
+    "location": "Csomád",
+    "sourceName": "Csomádi Hírharang",
+    "url": "https://www.csomad.hu/hu/csomadi-hirharang/"
+  },
+  {
+    "location": "Csömör",
+    "sourceName": "Csömör – önkormányzati honlap",
+    "url": "https://csomor.hu/category/fooldali-hirek/"
+  },
+  {
+    "location": "Csörög",
+    "sourceName": "Csörög – önkormányzati honlap",
+    "url": "https://csorog.hu/"
+  },
+  {
+    "location": "Csővár",
+    "sourceName": "Csővár – önkormányzati honlap",
+    "url": "https://www.csovar.hu/index.php/hirek"
+  },
+  {
+    "location": "Dabas",
+    "sourceName": "Dabas – önkormányzati honlap",
+    "url": "https://www.dabas.hu/"
+  },
+  {
+    "location": "Dánszentmiklós",
+    "sourceName": "Dánszentmiklós – önkormányzati honlap",
+    "url": "https://danszentmiklos.hu/"
+  },
+  {
+    "location": "Dány",
+    "sourceName": "Dány – önkormányzati honlap",
+    "url": "https://dany.hu/node"
+  },
+  {
+    "location": "Délegyháza",
+    "sourceName": "Délegyháza – önkormányzati honlap",
+    "url": "https://www.delegyhaza.hu/hirek"
+  },
+  {
+    "location": "Diósd",
+    "sourceName": "Diósd – önkormányzati honlap",
+    "url": "https://diosd.hu/"
+  },
+  {
+    "location": "Dömsöd",
+    "sourceName": "Dömsöd – önkormányzati honlap",
+    "url": "https://www.domsod.hu/"
+  },
+  {
+    "location": "Dunabogdány",
+    "sourceName": "Dunabogdány – önkormányzati honlap",
+    "url": "https://www.dunabogdany.hu/aktualis-hirek/"
+  },
+  {
+    "location": "Dunaharaszti",
+    "sourceName": "Dunaharaszti – önkormányzati honlap",
+    "url": "https://dunaharaszti.hu/hirek"
+  },
+  {
+    "location": "Dunakeszi",
+    "sourceName": "Dunakeszi – önkormányzati honlap",
+    "url": "https://dunakeszi.hu/hirek/"
+  },
+  {
+    "location": "Dunavarsány",
+    "sourceName": "Dunavarsány – önkormányzati honlap",
+    "url": "https://dunavarsany.hu/index.php/category/hirek/"
+  },
+  {
+    "location": "Ecser",
+    "sourceName": "Ecser – önkormányzati honlap",
+    "url": "https://ecser.hu/aktualis/hirek.php"
+  },
+  {
+    "location": "Érd",
+    "sourceName": "Érd – önkormányzati honlap",
+    "url": "https://www.erd.hu/"
+  },
+  {
+    "location": "Erdőkertes",
+    "sourceName": "Erdőkertes – önkormányzati honlap",
+    "url": "https://erdokertes.hu/hirek/"
+  },
+  {
+    "location": "Farmos",
+    "sourceName": "Farmos – önkormányzati honlap",
+    "url": "https://farmos.asp.lgov.hu/"
+  },
+  {
+    "location": "Felsőpakony",
+    "sourceName": "Felsőpakony – önkormányzati honlap",
+    "url": "https://felsopakony.hu/hirfolyam/"
+  },
+  {
+    "location": "Fót",
+    "sourceName": "Fót – önkormányzati honlap",
+    "url": "https://fot.hu/category/hirek/"
+  },
+  {
+    "location": "Galgagyörk",
+    "sourceName": "Galgagyörk – önkormányzati honlap",
+    "url": "https://www.galgagyork.hu/"
+  },
+  {
+    "location": "Galgahévíz",
+    "sourceName": "Galgahévíz – önkormányzati honlap",
+    "url": "https://galgaheviz.hu/"
+  },
+  {
+    "location": "Galgamácsa",
+    "sourceName": "Galgamácsa – önkormányzati honlap",
+    "url": "https://galgamacsa.hu/"
+  },
+  {
+    "location": "Gomba",
+    "sourceName": "Gomba – önkormányzati honlap",
+    "url": "https://gomba.hu/"
+  },
+  {
+    "location": "Göd",
+    "sourceName": "Göd – önkormányzati honlap",
+    "url": "https://god.hu/aktualis/hirek/"
+  },
+  {
+    "location": "Gödöllő",
+    "sourceName": "Gödöllő – önkormányzati honlap",
+    "url": "https://www.godollo.hu/kategoria/hirek/"
+  },
+  {
+    "location": "Gyál",
+    "sourceName": "Gyál – önkormányzati honlap",
+    "url": "https://gyal.hu/"
+  },
+  {
+    "location": "Gyömrő",
+    "sourceName": "Gyömrő – önkormányzati honlap",
+    "url": "https://www.gyomro.hu/hirek.html"
+  },
+  {
+    "location": "Halásztelek",
+    "sourceName": "Halásztelek – önkormányzati honlap",
+    "url": "https://halasztelek.hu/aktualis"
+  },
+  {
+    "location": "Herceghalom",
+    "sourceName": "Herceghalom – önkormányzati honlap",
+    "url": "https://herceghalom.hu/"
+  },
+  {
+    "location": "Hernád",
+    "sourceName": "Hernád – önkormányzati honlap",
+    "url": "https://www.hernad.hu/"
+  },
+  {
+    "location": "Hévízgyörk",
+    "sourceName": "Hévízgyörk – önkormányzati honlap",
+    "url": "https://hevizgyork.hu/"
+  },
+  {
+    "location": "Iklad",
+    "sourceName": "Iklad – önkormányzati honlap",
+    "url": "https://iklad.hu/"
+  },
+  {
+    "location": "Inárcs",
+    "sourceName": "Inárcs – önkormányzati honlap",
+    "url": "https://inarcs.asp.lgov.hu/"
+  },
+  {
+    "location": "Ipolydamásd",
+    "sourceName": "Ipolydamásd – önkormányzati honlap",
+    "url": "https://damasdhivatal.hu/"
+  },
+  {
+    "location": "Ipolytölgyes",
+    "sourceName": "Ipolytölgyes – önkormányzati honlap",
+    "url": "https://www.ipolytolgyes.hu/category/hirek/"
+  },
+  {
+    "location": "Isaszeg",
+    "sourceName": "Isaszeg – önkormányzati honlap",
+    "url": "https://isaszeg.asp.lgov.hu/"
+  },
+  {
+    "location": "Jászkarajenő",
+    "sourceName": "Jászkarajenő – önkormányzati honlap",
+    "url": "https://jaszkarajeno.asp.lgov.hu/"
+  },
+  {
+    "location": "Kakucs",
+    "sourceName": "Kakucs – önkormányzati honlap",
+    "url": "https://kakucs.hu/hirek"
+  },
+  {
+    "location": "Kartal",
+    "sourceName": "Kartal – önkormányzati honlap",
+    "url": "https://www.kartal.hu/"
+  },
+  {
+    "location": "Kemence",
+    "sourceName": "Kemence – önkormányzati honlap",
+    "url": "https://kemence.hu/"
+  },
+  {
+    "location": "Kerepes",
+    "sourceName": "Kerepes – önkormányzati honlap",
+    "url": "https://www.kerepes.hu/aktualitasok/hirek/"
+  },
+  {
+    "location": "Kiskunlacháza",
+    "sourceName": "Kiskunlacháza – önkormányzati honlap",
+    "url": "https://kiskunlachaza.hu/hirek/"
+  },
+  {
+    "location": "Kismaros",
+    "sourceName": "Kismaros – önkormányzati honlap",
+    "url": "https://kismaros.hu/category/aktualis/"
+  },
+  {
+    "location": "Kisnémedi",
+    "sourceName": "Kisnémedi – önkormányzati honlap",
+    "url": "https://kisnemedi.asp.lgov.hu/helyi-hirek"
+  },
+  {
+    "location": "Kisoroszi",
+    "sourceName": "Kisoroszi – önkormányzati honlap",
+    "url": "https://www.kisoroszi.hu/hirek"
+  },
+  {
+    "location": "Kistarcsa",
+    "sourceName": "Kistarcsa – önkormányzati honlap",
+    "url": "https://www.kistarcsa.hu/telepules/hirek"
+  },
+  {
+    "location": "Kocsér",
+    "sourceName": "Kocsér – önkormányzati honlap",
+    "url": "https://kocser.hu/"
+  },
+  {
+    "location": "Kóka",
+    "sourceName": "Kóka – önkormányzati honlap",
+    "url": "https://koka.asp.lgov.hu/helyi-hirek"
+  },
+  {
+    "location": "Kosd",
+    "sourceName": "Kosd – önkormányzati honlap",
+    "url": "https://kosd.hu/"
+  },
+  {
+    "location": "Kóspallag",
+    "sourceName": "Kóspallag – önkormányzati honlap",
+    "url": "https://kospallag.hu/"
+  },
+  {
+    "location": "Kőröstetétlen",
+    "sourceName": "Kőröstetétlen – önkormányzati honlap",
+    "url": "https://www.korostetetlen.hu/index.php?t=9"
+  },
+  {
+    "location": "Leányfalu",
+    "sourceName": "Leányfalu – önkormányzati honlap",
+    "url": "https://leanyfalu.hu/"
+  },
+  {
+    "location": "Letkés",
+    "sourceName": "Letkés – önkormányzati honlap",
+    "url": "https://letkes.hu/"
+  },
+  {
+    "location": "Lórév",
+    "sourceName": "Lórév – önkormányzati honlap",
+    "url": "https://lorev.hu/kozlemenyek/"
+  },
+  {
+    "location": "Maglód",
+    "sourceName": "Maglód – önkormányzati honlap",
+    "url": "https://maglod.hu/?megjelenites=hirkategoriak"
+  },
+  {
+    "location": "Majosháza",
+    "sourceName": "Majosháza – önkormányzati honlap",
+    "url": "https://majoshaza.hu/index.php/hirek"
+  },
+  {
+    "location": "Makád",
+    "sourceName": "Makád – önkormányzati honlap",
+    "url": "https://makad.hu/index.php"
+  },
+  {
+    "location": "Márianosztra",
+    "sourceName": "Márianosztra – önkormányzati honlap",
+    "url": "https://nosztrahivatal.hu/osszes-hir/"
+  },
+  {
+    "location": "Mende",
+    "sourceName": "Mende – önkormányzati honlap",
+    "url": "https://mende.hu/hirek/category/hirek-j8/"
+  },
+  {
+    "location": "Mogyoród",
+    "sourceName": "Mogyoród – önkormányzati honlap",
+    "url": "https://mogyorod.asp.lgov.hu/"
+  },
+  {
+    "location": "Monor",
+    "sourceName": "Monor – önkormányzati honlap",
+    "url": "https://monor.hu/"
+  },
+  {
+    "location": "Monorierdő",
+    "sourceName": "Monorierdő – önkormányzati honlap",
+    "url": "https://monorierdo.hu/hirek/"
+  },
+  {
+    "location": "Nagykáta",
+    "sourceName": "Nagykáta – önkormányzati honlap",
+    "url": "https://nagykata.hu/"
+  },
+  {
+    "location": "Nagykovácsi",
+    "sourceName": "Nagykovácsi – önkormányzati honlap",
+    "url": "https://nagykovacsi.hu/hirek"
+  },
+  {
+    "location": "Nagykőrös",
+    "sourceName": "Nagykőrös – önkormányzati honlap",
+    "url": "https://nagykoros.hu/hirek/"
+  },
+  {
+    "location": "Nagymaros",
+    "sourceName": "Nagymaros – önkormányzati honlap",
+    "url": "https://nagymaros.hu/hirek/"
+  },
+  {
+    "location": "Nagytarcsa",
+    "sourceName": "Nagytarcsa – önkormányzati honlap",
+    "url": "https://nagytarcsa.hu/"
+  },
+  {
+    "location": "Nyáregyháza",
+    "sourceName": "Nyáregyháza – önkormányzati honlap",
+    "url": "https://nyaregyhaza.hu/hirek"
+  },
+  {
+    "location": "Nyársapát",
+    "sourceName": "Nyársapát – önkormányzati honlap",
+    "url": "https://nyarsapat.hu/"
+  },
+  {
+    "location": "Ócsa",
+    "sourceName": "Ócsa – önkormányzati honlap",
+    "url": "https://ocsa.hu/"
+  },
+  {
+    "location": "Őrbottyán",
+    "sourceName": "Őrbottyán – önkormányzati honlap",
+    "url": "https://www.orbottyan.hu/"
+  },
+  {
+    "location": "Pánd",
+    "sourceName": "Pánd – önkormányzati honlap",
+    "url": "https://pand.asp.lgov.hu/helyi-hirek"
+  },
+  {
+    "location": "Páty",
+    "sourceName": "Páty – önkormányzati honlap",
+    "url": "https://paty.hu/hirek"
+  },
+  {
+    "location": "Pécel",
+    "sourceName": "Pécel – önkormányzati honlap",
+    "url": "https://pecel.hu/hirek/"
+  },
+  {
+    "location": "Penc",
+    "sourceName": "Penc – önkormányzati honlap",
+    "url": "https://penc.hu/"
+  },
+  {
+    "location": "Perbál",
+    "sourceName": "Perbál – önkormányzati honlap",
+    "url": "https://perbal.hu/"
+  },
+  {
+    "location": "Perőcsény",
+    "sourceName": "Perőcsény – önkormányzati honlap",
+    "url": "https://perocseny.hu/?cat=11"
+  },
+  {
+    "location": "Péteri",
+    "sourceName": "Péteri – önkormányzati honlap",
+    "url": "https://www.peteri.hu/"
+  },
+  {
+    "location": "Pilis",
+    "sourceName": "Pilis – önkormányzati honlap",
+    "url": "https://www.pilis.hu/app/cms/PilisApp/index?id=1"
+  },
+  {
+    "location": "Pilisborosjenő",
+    "sourceName": "Pilisborosjenő – önkormányzati honlap",
+    "url": "https://pilisborosjeno.hu/hirek/"
+  },
+  {
+    "location": "Piliscsaba",
+    "sourceName": "Piliscsaba – önkormányzati honlap",
+    "url": "https://piliscsaba.hu/hirek"
+  },
+  {
+    "location": "Pilisjászfalu",
+    "sourceName": "Pilisjászfalu – önkormányzati honlap",
+    "url": "https://pilisjaszfalu.hu/category/onkormanyzat/"
+  },
+  {
+    "location": "Pilisvörösvár",
+    "sourceName": "Pilisvörösvár – önkormányzati honlap",
+    "url": "https://pilisvorosvar.hu/"
+  },
+  {
+    "location": "Pilisszentiván",
+    "sourceName": "Pilisszentiván – önkormányzati honlap",
+    "url": "https://pilisszentivan.hu/"
+  },
+  {
+    "location": "Pilisszentkereszt",
+    "sourceName": "Pilisszentkereszt – önkormányzati honlap",
+    "url": "https://pilisszentkereszt.hu/"
+  },
+  {
+    "location": "Pilisszentlászló",
+    "sourceName": "Pilisszentlászló – önkormányzati honlap",
+    "url": "https://pilisszentlaszlo.hu/category/hirek/"
+  },
+  {
+    "location": "Pomáz",
+    "sourceName": "Pomáz – önkormányzati honlap",
+    "url": "https://pomaz.hu/"
+  },
+  {
+    "location": "Pusztavacs",
+    "sourceName": "Pusztavacs – önkormányzati honlap",
+    "url": "https://pusztavacs.asp.lgov.hu/helyi-hirek"
+  },
+  {
+    "location": "Pusztazámor",
+    "sourceName": "Pusztazámor – önkormányzati honlap",
+    "url": "https://pusztazamor.hu/"
+  },
+  {
+    "location": "Püspökhatvan",
+    "sourceName": "Püspökhatvan – önkormányzati honlap",
+    "url": "https://www.puspokhatvan.hu/index.php/puspokhatvan-hirek-menu"
+  },
+  {
+    "location": "Püspökszilágy",
+    "sourceName": "Püspökszilágy – önkormányzati honlap",
+    "url": "https://puspokszilagy.hu/"
+  },
+  {
+    "location": "Ráckeve",
+    "sourceName": "Ráckeve – önkormányzati honlap",
+    "url": "https://www.rackeve.hu/"
+  },
+  {
+    "location": "Rád",
+    "sourceName": "Rád – önkormányzati honlap",
+    "url": "https://www.rad.hu/index.php/rad-hirek-menu"
+  },
+  {
+    "location": "Remeteszőlős",
+    "sourceName": "Remeteszőlős – önkormányzati honlap",
+    "url": "https://remeteszolos.hu/"
+  },
+  {
+    "location": "Solymár",
+    "sourceName": "Solymár – önkormányzati honlap",
+    "url": "https://www.solymar.hu/hirek"
+  },
+  {
+    "location": "Sóskút",
+    "sourceName": "Sóskút – önkormányzati honlap",
+    "url": "https://www.soskut.hu/?fname=HELYI_HIREK&module=news"
+  },
+  {
+    "location": "Sülysáp",
+    "sourceName": "Sülysáp – önkormányzati honlap",
+    "url": "https://www.sulysap.hu/"
+  },
+  {
+    "location": "Szada",
+    "sourceName": "Szada – önkormányzati honlap",
+    "url": "https://szada.hu/"
+  },
+  {
+    "location": "Százhalombatta",
+    "sourceName": "Százhalombattai Hírtükör",
+    "url": "https://hirtukor.hu/"
+  },
+  {
+    "location": "Szentendre",
+    "sourceName": "Szentendre – önkormányzati honlap",
+    "url": "https://szentendre.hu/"
+  },
+  {
+    "location": "Szentlőrinckáta",
+    "sourceName": "Szentlőrinckáta – önkormányzati honlap",
+    "url": "https://szentlorinckata.hu/category/hirek/"
+  },
+  {
+    "location": "Szentmártonkáta",
+    "sourceName": "Szentmártonkáta – önkormányzati honlap",
+    "url": "https://szentmartonkata.hu/"
+  },
+  {
+    "location": "Szigetbecse",
+    "sourceName": "Szigetbecse – önkormányzati honlap",
+    "url": "https://szigetbecse.hu/"
+  },
+  {
+    "location": "Szigetcsép",
+    "sourceName": "Szigetcsép – önkormányzati honlap",
+    "url": "https://szigetcsep.hu/"
+  },
+  {
+    "location": "Szigethalom",
+    "sourceName": "Szigethalom – önkormányzati honlap",
+    "url": "https://szigethalom.asp.lgov.hu/"
+  },
+  {
+    "location": "Szigetmonostor",
+    "sourceName": "Szigetmonostor – önkormányzati honlap",
+    "url": "https://szigetmonostor.hu/hirek/"
+  },
+  {
+    "location": "Szigetszentmárton",
+    "sourceName": "Szigetszentmárton – önkormányzati honlap",
+    "url": "https://www.szigetszentmarton.hu/hirek-esemenyek"
+  },
+  {
+    "location": "Szigetszentmiklós",
+    "sourceName": "Szigetszentmiklós – önkormányzati honlap",
+    "url": "https://szigetszentmiklos.hu/"
+  },
+  {
+    "location": "Szigetújfalu",
+    "sourceName": "Szigetújfalu – önkormányzati honlap",
+    "url": "https://szigetujfalu.hu/"
+  },
+  {
+    "location": "Szob",
+    "sourceName": "Szob – önkormányzati honlap",
+    "url": "https://szob.hu/kategoriak/hirek/"
+  },
+  {
+    "location": "Szokolya",
+    "sourceName": "Szokolya – önkormányzati honlap",
+    "url": "https://szokolya.hu/hirek"
+  },
+  {
+    "location": "Sződ",
+    "sourceName": "Sződ – önkormányzati honlap",
+    "url": "https://www.szod.hu/index.php/szod-telepulesunk-menu/szod-hirek-menu"
+  },
+  {
+    "location": "Sződliget",
+    "sourceName": "Sződliget – önkormányzati honlap",
+    "url": "https://szodliget.asp.lgov.hu/helyi-hirek"
+  },
+  {
+    "location": "Táborfalva",
+    "sourceName": "Táborfalva – önkormányzati honlap",
+    "url": "https://taborfalva.hu/"
+  },
+  {
+    "location": "Tahitótfalu",
+    "sourceName": "Tahitótfalu – önkormányzati honlap",
+    "url": "https://tahitotfalu.hu/"
+  },
+  {
+    "location": "Taksony",
+    "sourceName": "Taksony – önkormányzati honlap",
+    "url": "https://www.taksony.hu/"
+  },
+  {
+    "location": "Tápióbicske",
+    "sourceName": "Tápióbicske – önkormányzati honlap",
+    "url": "https://tapiobicske.hu/category/hirek-es-aktualitasok/kozeleti-hirek/"
+  },
+  {
+    "location": "Tápiógyörgye",
+    "sourceName": "Tápiógyörgye – önkormányzati honlap",
+    "url": "https://tapiogyorgye.hu/"
+  },
+  {
+    "location": "Tápióság",
+    "sourceName": "Tápióság – önkormányzati honlap",
+    "url": "https://tapiosag.hu/"
+  },
+  {
+    "location": "Tápiószentmárton",
+    "sourceName": "Tápiószentmárton – önkormányzati honlap",
+    "url": "https://tapioszentmarton.hu/"
+  },
+  {
+    "location": "Tápiószőlős",
+    "sourceName": "Tápiószőlős – önkormányzati honlap",
+    "url": "https://tapioszolos.asp.lgov.hu/"
+  },
+  {
+    "location": "Tárnok",
+    "sourceName": "Tárnok – önkormányzati honlap",
+    "url": "https://tarnok.hu/aktualis"
+  },
+  {
+    "location": "Tatárszentgyörgy",
+    "sourceName": "Tatárszentgyörgy – önkormányzati honlap",
+    "url": "https://www.tatarszentgyorgy.hu/"
+  },
+  {
+    "location": "Telki",
+    "sourceName": "Telki – önkormányzati honlap",
+    "url": "https://telki.hu/"
+  },
+  {
+    "location": "Tinnye",
+    "sourceName": "Tinnye – önkormányzati honlap",
+    "url": "https://www.tinnye.hu/hirek"
+  },
+  {
+    "location": "Tóalmás",
+    "sourceName": "Tóalmás – önkormányzati honlap",
+    "url": "https://www.toalmas.hu/"
+  },
+  {
+    "location": "Tök",
+    "sourceName": "Tök – önkormányzati honlap",
+    "url": "https://tok.hu/"
+  },
+  {
+    "location": "Tököl",
+    "sourceName": "Tököl – önkormányzati honlap",
+    "url": "https://tokol.hu/"
+  },
+  {
+    "location": "Törökbálint",
+    "sourceName": "Törökbálint – önkormányzati honlap",
+    "url": "https://www.torokbalint.hu/app/cms/TorokbalintApp/index?id=5"
+  },
+  {
+    "location": "Törtel",
+    "sourceName": "Törtel – önkormányzati honlap",
+    "url": "https://tortel.asp.lgov.hu/"
+  },
+  {
+    "location": "Tura",
+    "sourceName": "Tura – önkormányzati honlap",
+    "url": "https://tura.hu/"
+  },
+  {
+    "location": "Újhartyán",
+    "sourceName": "Újhartyán – önkormányzati honlap",
+    "url": "https://ujhartyan.hu/"
+  },
+  {
+    "location": "Újlengyel",
+    "sourceName": "Újlengyel – önkormányzati honlap",
+    "url": "https://ujlengyel.asp.lgov.hu/"
+  },
+  {
+    "location": "Újszilvás",
+    "sourceName": "Újszilvás – önkormányzati honlap",
+    "url": "https://ujszilvas.asp.lgov.hu/"
+  },
+  {
+    "location": "Úri",
+    "sourceName": "Úri – önkormányzati honlap",
+    "url": "https://www.uri.hu/"
+  },
+  {
+    "location": "Üllő",
+    "sourceName": "Üllő – önkormányzati honlap",
+    "url": "https://www.ullo.hu/"
+  },
+  {
+    "location": "Üröm",
+    "sourceName": "Üröm – önkormányzati honlap",
+    "url": "https://urom.hu/"
+  },
+  {
+    "location": "Vác",
+    "sourceName": "Vác – önkormányzati honlap",
+    "url": "https://www.vac.hu/vac_varosi_hirek.html"
+  },
+  {
+    "location": "Vácduka",
+    "sourceName": "Vácduka – önkormányzati honlap",
+    "url": "https://vacduka.hu/hirek/"
+  },
+  {
+    "location": "Vácegres",
+    "sourceName": "Vácegres – önkormányzati honlap",
+    "url": "https://www.vacegres.hu/tartalom/category-items/2-tartalom/4-hirek"
+  },
+  {
+    "location": "Váchartyán",
+    "sourceName": "Váchartyán – önkormányzati honlap",
+    "url": "https://vachartyan.hu/index.php/vachartyan-hirek-menu"
+  },
+  {
+    "location": "Váckisújfalu",
+    "sourceName": "Váckisújfalu – önkormányzati honlap",
+    "url": "https://vackisujfalu.hu/"
+  },
+  {
+    "location": "Vácrátót",
+    "sourceName": "Vácrátót – önkormányzati honlap",
+    "url": "https://vacratot.hu/"
+  },
+  {
+    "location": "Vácszentlászló",
+    "sourceName": "Vácszentlászló – önkormányzati honlap",
+    "url": "https://vacszentlaszlo.hu/hirek-informaciok/"
+  },
+  {
+    "location": "Valkó",
+    "sourceName": "Valkó – önkormányzati honlap",
+    "url": "https://www.valko.hu/category/hirek/"
+  },
+  {
+    "location": "Vasad",
+    "sourceName": "Vasad – önkormányzati honlap",
+    "url": "https://vasad.asp.lgov.hu/"
+  },
+  {
+    "location": "Vecsés",
+    "sourceName": "Vecsési Tájékoztató",
+    "url": "https://vecsesitajekoztato.hu/onkormanyzat/"
+  },
+  {
+    "location": "Veresegyház",
+    "sourceName": "Veresegyház – önkormányzati honlap",
+    "url": "https://veresegyhaz.hu/"
+  },
+  {
+    "location": "Verőce",
+    "sourceName": "Verőce – önkormányzati honlap",
+    "url": "https://www.xn--verce-69a.hu/idovonal/"
+  },
+  {
+    "location": "Verseg",
+    "sourceName": "Verseg – önkormányzati honlap",
+    "url": "https://www.verseg-kozseg.com/"
+  },
+  {
+    "location": "Visegrád",
+    "sourceName": "Visegrád – önkormányzati honlap",
+    "url": "https://www.visegrad.hu/"
+  },
+  {
+    "location": "Zebegény",
+    "sourceName": "Zebegény – önkormányzati honlap",
+    "url": "https://www.zebegeny.hu/"
+  },
+  {
+    "location": "Zsámbék",
+    "sourceName": "Zsámbék – önkormányzati honlap",
+    "url": "https://zsambek.hu/"
+  },
+  {
+    "location": "Zsámbok",
+    "sourceName": "Zsámbok – önkormányzati honlap",
+    "url": "https://zsambok.asp.lgov.hu/"
+  }
+]
